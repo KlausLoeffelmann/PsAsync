@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -10,6 +9,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using Android.Content;
 using System.Diagnostics;
+using Microsoft.Identity.Client;
 
 namespace XamarinFluentDemo.Droid
 {
@@ -25,7 +25,7 @@ namespace XamarinFluentDemo.Droid
         const string graphResourceUri = "https://graph.windows.net";
         public static string graphApiVersion = "2013-11-08";
         //AuthenticationResult will hold the result after authentication completes
-        AuthenticationResult authResult = null;
+        //AuthenticationResult authResult = null;
 
         ////Client ID (Legatro)
         //public static string clientId = "000000004816013F";
@@ -39,7 +39,7 @@ namespace XamarinFluentDemo.Droid
         ////AuthenticationResult will hold the result after authentication completes
         //AuthenticationResult authResult = null;
 
-        protected async override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
@@ -48,36 +48,15 @@ namespace XamarinFluentDemo.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
-            var returnUri = await GetAccessToken(graphResourceUri, this);
+
+            App.PCA.RedirectUri = "msala7d8cef0-4145-49b2-a91d-95c54051fa3f://auth";
+            App.UiParent = new UIParent(this);           
         }
 
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
-            AuthenticationAgentContinuationHelper.SetAuthenticationAgentContinuationEventArgs(requestCode, resultCode, data);
-        }
-
-        public static async Task<AuthenticationResult> GetAccessToken
-                    (string serviceResourceId, Activity activity)
-        {
-            try
-            {
-                var authContext = new AuthenticationContext(commonAuthority);
-                if (authContext.TokenCache.ReadItems().Count() > 0)
-                    authContext = new AuthenticationContext(authContext.TokenCache.ReadItems().First().Authority);
-                var authResult = await authContext.AcquireTokenAsync(serviceResourceId, clientId, returnUri,
-                    new PlatformParameters(activity));
-                return authResult;
-            }
-            catch (Exception ex)
-            {
-                if (Debugger.IsAttached)
-                {
-                    System.Diagnostics.Debug.Print(ex.Message);
-                    Debugger.Break();
-                }
-                return null;
-            }
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(requestCode, resultCode, data);
         }
     }
 }
