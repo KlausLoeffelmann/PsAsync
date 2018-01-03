@@ -26,6 +26,9 @@ namespace XamarinFluentDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Id.agentWebView = global::XamarinFluentDemo.Droid.Resource.Id.agentWebView;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Layout.WebAuthenticationBroker = global::XamarinFluentDemo.Droid.Resource.Layout.WebAuthenticationBroker;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.String.ApplicationName = global::XamarinFluentDemo.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamarinFluentDemo.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3102,6 +3105,9 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08002b
 			public const int add = 2131230763;
 			
+			// aapt resource value: 0x7f0800c8
+			public const int agentWebView = 2131230920;
+			
 			// aapt resource value: 0x7f08006f
 			public const int alertTitle = 2131230831;
 			
@@ -3282,8 +3288,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080060
 			public const int list_item = 2131230816;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int masked = 2131230921;
+			// aapt resource value: 0x7f0800ca
+			public const int masked = 2131230922;
 			
 			// aapt resource value: 0x7f0800b8
 			public const int media_actions = 2131230904;
@@ -3615,8 +3621,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c8
-			public const int visible = 2131230920;
+			// aapt resource value: 0x7f0800c9
+			public const int visible = 2131230921;
 			
 			// aapt resource value: 0x7f0800aa
 			public const int volume_item_container = 2131230890;
@@ -3918,6 +3924,9 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f030044
 			public const int tooltip = 2130903108;
 			
+			// aapt resource value: 0x7f030045
+			public const int WebAuthenticationBroker = 2130903109;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3930,6 +3939,9 @@ namespace XamarinFluentDemo.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f09003e
+			public const int ApplicationName = 2131296318;
 			
 			// aapt resource value: 0x7f090015
 			public const int abc_action_bar_home_description = 2131296277;

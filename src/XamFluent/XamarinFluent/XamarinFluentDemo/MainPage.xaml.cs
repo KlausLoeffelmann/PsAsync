@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,8 @@ namespace XamarinFluentDemo
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
+
+        public MainPage()
 		{
 			InitializeComponent();
 		}

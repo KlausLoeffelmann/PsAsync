@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <Version>3.17.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="26.1.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="26.1.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="26.1.0.1" />
