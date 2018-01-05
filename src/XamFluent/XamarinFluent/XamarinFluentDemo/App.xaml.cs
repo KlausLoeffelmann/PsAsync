@@ -9,11 +9,8 @@ namespace XamarinFluentDemo
 {
 	public partial class App : Application
 	{
-        //Client ID (AD Testapp)
-        public static string ClientID = "a2305275-6b37-4907-92d3-01678a3d0834";
-
-        ////Client ID (Legatro)
-        //public static string ClientID = "000000004816013F";
+        //Client ID (Lippstapp Testapp)
+        public static string ClientID = "d39fb30f-3e0c-4cc8-bee1-53e5fe4606d9";
 
         public static PublicClientApplication PCA = null;
         public static string[] Scopes = { "User.Read" };
@@ -27,7 +24,6 @@ namespace XamarinFluentDemo
 
             // default redirectURI; each platform specific project will have to override it with its own
             PCA = new PublicClientApplication(ClientID);
-
 			MainPage = new XamarinFluentDemo.MainPage();
 		}
 

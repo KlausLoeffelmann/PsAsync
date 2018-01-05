@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.XamarinFluentDemo">
-	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="XamarinFluentDemo.Android">
-        <activity android:name="microsoft.identity.client.BrowserTabActivity">
-          <intent-filter>
-            <action android:name="android.intent.action.VIEW"/>
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="msala7d8cef0-4145-49b2-a91d-95c54051fa3f" 
-                  android:host="auth" />
-          </intent-filter>
-        </activity>
-    </application>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" 
+          android:versionName="1.0" 
+          package="com.activedevelop.XamarinFluentDemo" 
+          android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application>
+		<activity android:name="microsoft.identity.client.BrowserTabActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="msald39fb30f-3e0c-4cc8-bee1-53e5fe4606d9" android:host="auth" />
+			</intent-filter>
+		</activity>
+	</application>
 </manifest>

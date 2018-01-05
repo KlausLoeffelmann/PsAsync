@@ -16,29 +16,6 @@ namespace XamarinFluentDemo.Droid
     [Activity(Label = "XamarinFluentDemo", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        //Client ID (AD Testapp)
-        public static string clientId = "a2305275-6b37-4907-92d3-01678a3d0834";
-        public static string commonAuthority = "https://login.windows.net/common";
-        //Redirect URI
-        public static Uri returnUri = new Uri("http://xamarin-fluent-redirect");
-        //Graph URI if you've given permission to Azure Active Directory
-        const string graphResourceUri = "https://graph.windows.net";
-        public static string graphApiVersion = "2013-11-08";
-        //AuthenticationResult will hold the result after authentication completes
-        //AuthenticationResult authResult = null;
-
-        ////Client ID (Legatro)
-        //public static string clientId = "000000004816013F";
-        //public static string clientSecret = "anZOId6x4CF2SJOwaOvqWHRAWcCULrgO";
-        //public static string commonAuthority = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize";
-        ////Redirect URI
-        //public static Uri returnUri = new Uri("legatro://easyauth.callback");
-        ////Graph URI if you've given permission to Azure Active Directory
-        //const string graphResourceUri = "https://graph.windows.net";
-        //public static string graphApiVersion = "2013-11-08";
-        ////AuthenticationResult will hold the result after authentication completes
-        //AuthenticationResult authResult = null;
-
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -49,7 +26,7 @@ namespace XamarinFluentDemo.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
 
-            App.PCA.RedirectUri = "msala7d8cef0-4145-49b2-a91d-95c54051fa3f://auth";
+            App.PCA.RedirectUri = "msald39fb30f-3e0c-4cc8-bee1-53e5fe4606d9://auth";
             App.UiParent = new UIParent(this);           
         }
 

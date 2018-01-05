@@ -50,17 +50,28 @@
     <PackageReference Include="Microsoft.Identity.Client">
       <Version>1.1.0-preview</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Design">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v4">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <Version>25.4.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>2.5.0.121934</Version>
+      <Version>2.4.0.91020</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MainPageRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,7 +86,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
@@ -86,7 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinFluentDemo\XamarinFluentDemo.csproj">
-      <Project>{E79B9B1B-DE91-4519-B8D2-D4CF24655883}</Project>
+      <Project>{6c7707ce-be57-4731-b397-c522bf0363f6}</Project>
       <Name>XamarinFluentDemo</Name>
     </ProjectReference>
   </ItemGroup>
