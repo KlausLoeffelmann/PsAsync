@@ -9,11 +9,8 @@ namespace XamarinFluentDemo
 {
 	public partial class App : Application
 	{
-        ////Client ID (Lippstapp Testapp)
-        //public static string ClientID = "d39fb30f-3e0c-4cc8-bee1-53e5fe4606d9";
-
-        //Client ID (Lippstapp Testapp)
-        public static string ClientID = "00000000401EB713";
+        //Client ID (AndroidTestapp)
+        public static string ClientID = "59712ae4-2173-44f3-aff9-b01accc59a72";
 
         public static PublicClientApplication PCA = null;
         public static string[] Scopes = { "User.Read" };
