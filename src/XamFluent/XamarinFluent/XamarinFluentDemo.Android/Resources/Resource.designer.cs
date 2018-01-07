@@ -75,6 +75,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.alertDialogStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogTheme = global::XamarinFluentDemo.Droid.Resource.Attribute.alertDialogTheme;
 			global::Microsoft.Identity.Client.Resource.Attribute.allowStacking = global::XamarinFluentDemo.Droid.Resource.Attribute.allowStacking;
+			global::Microsoft.Identity.Client.Resource.Attribute.alpha = global::XamarinFluentDemo.Droid.Resource.Attribute.alpha;
 			global::Microsoft.Identity.Client.Resource.Attribute.arrowHeadLength = global::XamarinFluentDemo.Droid.Resource.Attribute.arrowHeadLength;
 			global::Microsoft.Identity.Client.Resource.Attribute.arrowShaftLength = global::XamarinFluentDemo.Droid.Resource.Attribute.arrowShaftLength;
 			global::Microsoft.Identity.Client.Resource.Attribute.autoCompleteTextViewStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -90,6 +91,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarNeutralButtonStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarPositiveButtonStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonGravity = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonGravity;
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonPanelSideLayout = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonPanelSideLayout;
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.buttonStyleSmall = global::XamarinFluentDemo.Droid.Resource.Attribute.buttonStyleSmall;
@@ -103,6 +105,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.collapseIcon = global::XamarinFluentDemo.Droid.Resource.Attribute.collapseIcon;
 			global::Microsoft.Identity.Client.Resource.Attribute.color = global::XamarinFluentDemo.Droid.Resource.Attribute.color;
 			global::Microsoft.Identity.Client.Resource.Attribute.colorAccent = global::XamarinFluentDemo.Droid.Resource.Attribute.colorAccent;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorBackgroundFloating = global::XamarinFluentDemo.Droid.Resource.Attribute.colorBackgroundFloating;
 			global::Microsoft.Identity.Client.Resource.Attribute.colorButtonNormal = global::XamarinFluentDemo.Droid.Resource.Attribute.colorButtonNormal;
 			global::Microsoft.Identity.Client.Resource.Attribute.colorControlActivated = global::XamarinFluentDemo.Droid.Resource.Attribute.colorControlActivated;
 			global::Microsoft.Identity.Client.Resource.Attribute.colorControlHighlight = global::XamarinFluentDemo.Droid.Resource.Attribute.colorControlHighlight;
@@ -112,9 +115,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.colorSwitchThumbNormal = global::XamarinFluentDemo.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Microsoft.Identity.Client.Resource.Attribute.commitIcon = global::XamarinFluentDemo.Droid.Resource.Attribute.commitIcon;
 			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetEnd = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetEndWithActions = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetEndWithActions;
 			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetLeft = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetLeft;
 			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetRight = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetRight;
 			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetStart = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetStartWithNavigation = global::XamarinFluentDemo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
 			global::Microsoft.Identity.Client.Resource.Attribute.controlBackground = global::XamarinFluentDemo.Droid.Resource.Attribute.controlBackground;
 			global::Microsoft.Identity.Client.Resource.Attribute.customNavigationLayout = global::XamarinFluentDemo.Droid.Resource.Attribute.customNavigationLayout;
 			global::Microsoft.Identity.Client.Resource.Attribute.defaultQueryHint = global::XamarinFluentDemo.Droid.Resource.Attribute.defaultQueryHint;
@@ -152,6 +157,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.listDividerAlertDialog = global::XamarinFluentDemo.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Microsoft.Identity.Client.Resource.Attribute.listItemLayout = global::XamarinFluentDemo.Droid.Resource.Attribute.listItemLayout;
 			global::Microsoft.Identity.Client.Resource.Attribute.listLayout = global::XamarinFluentDemo.Droid.Resource.Attribute.listLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.listMenuViewStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.listMenuViewStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.listPopupWindowStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.listPopupWindowStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemHeight = global::XamarinFluentDemo.Droid.Resource.Attribute.listPreferredItemHeight;
 			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemHeightLarge = global::XamarinFluentDemo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
@@ -167,8 +173,10 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.navigationIcon = global::XamarinFluentDemo.Droid.Resource.Attribute.navigationIcon;
 			global::Microsoft.Identity.Client.Resource.Attribute.navigationMode = global::XamarinFluentDemo.Droid.Resource.Attribute.navigationMode;
 			global::Microsoft.Identity.Client.Resource.Attribute.overlapAnchor = global::XamarinFluentDemo.Droid.Resource.Attribute.overlapAnchor;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingBottomNoButtons = global::XamarinFluentDemo.Droid.Resource.Attribute.paddingBottomNoButtons;
 			global::Microsoft.Identity.Client.Resource.Attribute.paddingEnd = global::XamarinFluentDemo.Droid.Resource.Attribute.paddingEnd;
 			global::Microsoft.Identity.Client.Resource.Attribute.paddingStart = global::XamarinFluentDemo.Droid.Resource.Attribute.paddingStart;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingTopNoTitle = global::XamarinFluentDemo.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Microsoft.Identity.Client.Resource.Attribute.panelBackground = global::XamarinFluentDemo.Droid.Resource.Attribute.panelBackground;
 			global::Microsoft.Identity.Client.Resource.Attribute.panelMenuListTheme = global::XamarinFluentDemo.Droid.Resource.Attribute.panelMenuListTheme;
 			global::Microsoft.Identity.Client.Resource.Attribute.panelMenuListWidth = global::XamarinFluentDemo.Droid.Resource.Attribute.panelMenuListWidth;
@@ -193,6 +201,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.showAsAction = global::XamarinFluentDemo.Droid.Resource.Attribute.showAsAction;
 			global::Microsoft.Identity.Client.Resource.Attribute.showDividers = global::XamarinFluentDemo.Droid.Resource.Attribute.showDividers;
 			global::Microsoft.Identity.Client.Resource.Attribute.showText = global::XamarinFluentDemo.Droid.Resource.Attribute.showText;
+			global::Microsoft.Identity.Client.Resource.Attribute.showTitle = global::XamarinFluentDemo.Droid.Resource.Attribute.showTitle;
 			global::Microsoft.Identity.Client.Resource.Attribute.singleChoiceItemLayout = global::XamarinFluentDemo.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Microsoft.Identity.Client.Resource.Attribute.spinBars = global::XamarinFluentDemo.Droid.Resource.Attribute.spinBars;
 			global::Microsoft.Identity.Client.Resource.Attribute.spinnerDropDownItemStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -200,6 +209,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.splitTrack = global::XamarinFluentDemo.Droid.Resource.Attribute.splitTrack;
 			global::Microsoft.Identity.Client.Resource.Attribute.srcCompat = global::XamarinFluentDemo.Droid.Resource.Attribute.srcCompat;
 			global::Microsoft.Identity.Client.Resource.Attribute.state_above_anchor = global::XamarinFluentDemo.Droid.Resource.Attribute.state_above_anchor;
+			global::Microsoft.Identity.Client.Resource.Attribute.subMenuArrow = global::XamarinFluentDemo.Droid.Resource.Attribute.subMenuArrow;
 			global::Microsoft.Identity.Client.Resource.Attribute.submitBackground = global::XamarinFluentDemo.Droid.Resource.Attribute.submitBackground;
 			global::Microsoft.Identity.Client.Resource.Attribute.subtitle = global::XamarinFluentDemo.Droid.Resource.Attribute.subtitle;
 			global::Microsoft.Identity.Client.Resource.Attribute.subtitleTextAppearance = global::XamarinFluentDemo.Droid.Resource.Attribute.subtitleTextAppearance;
@@ -214,6 +224,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceLargePopupMenu = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceListItem = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceListItemSmall = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearancePopupMenuHeader = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSearchResultSubtitle = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSearchResultTitle = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSmallPopupMenu = global::XamarinFluentDemo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
@@ -222,7 +233,13 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.theme = global::XamarinFluentDemo.Droid.Resource.Attribute.theme;
 			global::Microsoft.Identity.Client.Resource.Attribute.thickness = global::XamarinFluentDemo.Droid.Resource.Attribute.thickness;
 			global::Microsoft.Identity.Client.Resource.Attribute.thumbTextPadding = global::XamarinFluentDemo.Droid.Resource.Attribute.thumbTextPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.thumbTint = global::XamarinFluentDemo.Droid.Resource.Attribute.thumbTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.thumbTintMode = global::XamarinFluentDemo.Droid.Resource.Attribute.thumbTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMark = global::XamarinFluentDemo.Droid.Resource.Attribute.tickMark;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMarkTint = global::XamarinFluentDemo.Droid.Resource.Attribute.tickMarkTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMarkTintMode = global::XamarinFluentDemo.Droid.Resource.Attribute.tickMarkTintMode;
 			global::Microsoft.Identity.Client.Resource.Attribute.title = global::XamarinFluentDemo.Droid.Resource.Attribute.title;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMargin = global::XamarinFluentDemo.Droid.Resource.Attribute.titleMargin;
 			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginBottom = global::XamarinFluentDemo.Droid.Resource.Attribute.titleMarginBottom;
 			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginEnd = global::XamarinFluentDemo.Droid.Resource.Attribute.titleMarginEnd;
 			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginStart = global::XamarinFluentDemo.Droid.Resource.Attribute.titleMarginStart;
@@ -234,6 +251,8 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Attribute.toolbarNavigationButtonStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.toolbarStyle = global::XamarinFluentDemo.Droid.Resource.Attribute.toolbarStyle;
 			global::Microsoft.Identity.Client.Resource.Attribute.track = global::XamarinFluentDemo.Droid.Resource.Attribute.track;
+			global::Microsoft.Identity.Client.Resource.Attribute.trackTint = global::XamarinFluentDemo.Droid.Resource.Attribute.trackTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.trackTintMode = global::XamarinFluentDemo.Droid.Resource.Attribute.trackTintMode;
 			global::Microsoft.Identity.Client.Resource.Attribute.voiceIcon = global::XamarinFluentDemo.Droid.Resource.Attribute.voiceIcon;
 			global::Microsoft.Identity.Client.Resource.Attribute.windowActionBar = global::XamarinFluentDemo.Droid.Resource.Attribute.windowActionBar;
 			global::Microsoft.Identity.Client.Resource.Attribute.windowActionBarOverlay = global::XamarinFluentDemo.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -252,7 +271,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::XamarinFluentDemo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
 			global::Microsoft.Identity.Client.Resource.Color.abc_background_cache_hint_selector_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.abc_background_cache_hint_selector_material_light = global::XamarinFluentDemo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_btn_colored_borderless_text_material = global::XamarinFluentDemo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Microsoft.Identity.Client.Resource.Color.abc_btn_colored_text_material = global::XamarinFluentDemo.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Microsoft.Identity.Client.Resource.Color.abc_color_highlight_material = global::XamarinFluentDemo.Droid.Resource.Color.abc_color_highlight_material;
+			global::Microsoft.Identity.Client.Resource.Color.abc_hint_foreground_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_hint_foreground_material_light = global::XamarinFluentDemo.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Microsoft.Identity.Client.Resource.Color.abc_input_method_navigation_guard = global::XamarinFluentDemo.Droid.Resource.Color.abc_input_method_navigation_guard;
 			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_disable_only_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_disable_only_material_light = global::XamarinFluentDemo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
@@ -264,6 +287,13 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Color.abc_search_url_text_selected = global::XamarinFluentDemo.Droid.Resource.Color.abc_search_url_text_selected;
 			global::Microsoft.Identity.Client.Resource.Color.abc_secondary_text_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.abc_secondary_text_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.abc_secondary_text_material_light = global::XamarinFluentDemo.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_btn_checkable = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_default = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_default;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_edittext = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_edittext;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_seek_thumb = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_spinner = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_spinner;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_switch_thumb = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_switch_track = global::XamarinFluentDemo.Droid.Resource.Color.abc_tint_switch_track;
 			global::Microsoft.Identity.Client.Resource.Color.accent_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.accent_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.accent_material_light = global::XamarinFluentDemo.Droid.Resource.Color.accent_material_light;
 			global::Microsoft.Identity.Client.Resource.Color.background_floating_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.background_floating_material_dark;
@@ -298,6 +328,9 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Color.material_grey_800 = global::XamarinFluentDemo.Droid.Resource.Color.material_grey_800;
 			global::Microsoft.Identity.Client.Resource.Color.material_grey_850 = global::XamarinFluentDemo.Droid.Resource.Color.material_grey_850;
 			global::Microsoft.Identity.Client.Resource.Color.material_grey_900 = global::XamarinFluentDemo.Droid.Resource.Color.material_grey_900;
+			global::Microsoft.Identity.Client.Resource.Color.notification_action_color_filter = global::XamarinFluentDemo.Droid.Resource.Color.notification_action_color_filter;
+			global::Microsoft.Identity.Client.Resource.Color.notification_icon_bg_color = global::XamarinFluentDemo.Droid.Resource.Color.notification_icon_bg_color;
+			global::Microsoft.Identity.Client.Resource.Color.notification_material_background_media_default_color = global::XamarinFluentDemo.Droid.Resource.Color.notification_material_background_media_default_color;
 			global::Microsoft.Identity.Client.Resource.Color.primary_dark_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.primary_dark_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.primary_dark_material_light = global::XamarinFluentDemo.Droid.Resource.Color.primary_dark_material_light;
 			global::Microsoft.Identity.Client.Resource.Color.primary_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.primary_material_dark;
@@ -319,9 +352,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_normal_material_dark = global::XamarinFluentDemo.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_normal_material_light = global::XamarinFluentDemo.Droid.Resource.Color.switch_thumb_normal_material_light;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_content_inset_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_height_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_padding_end_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_padding_start_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_elevation_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
@@ -338,6 +373,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_inset_vertical_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_padding_horizontal_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_padding_vertical_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_config_prefDialogWidth = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_control_corner_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_control_corner_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_control_inset_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_control_inset_material;
@@ -346,10 +382,13 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_height_minor = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_width_major = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_width_minor = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_min_width_major = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_min_width_major;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_min_width_minor = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_padding_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_padding_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_padding_top_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_title_divider_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_disabled_alpha_material_dark = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_disabled_alpha_material_light = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_dropdownitem_icon_width = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
@@ -361,6 +400,8 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_floating_window_z = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_floating_window_z;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_list_item_padding_horizontal_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_panel_menu_list_width = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_progress_bar_height_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_search_view_preferred_height = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_search_view_preferred_height;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_search_view_preferred_width = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_search_view_preferred_width;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_seekbar_track_background_height_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_seekbar_track_progress_height_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
@@ -377,6 +418,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_headline_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_headline_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_large_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_large_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_medium_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_menu_header_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_menu_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_menu_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_small_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_small_material;
 			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_subhead_material = global::XamarinFluentDemo.Droid.Resource.Dimension.abc_text_size_subhead_material;
@@ -388,9 +430,25 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_colored = global::XamarinFluentDemo.Droid.Resource.Dimension.highlight_alpha_material_colored;
 			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_dark = global::XamarinFluentDemo.Droid.Resource.Dimension.highlight_alpha_material_dark;
 			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_light = global::XamarinFluentDemo.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_alpha_material_dark = global::XamarinFluentDemo.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_alpha_material_light = global::XamarinFluentDemo.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_pressed_alpha_material_dark = global::XamarinFluentDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_pressed_alpha_material_light = global::XamarinFluentDemo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_action_icon_size = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_action_text_size = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_action_text_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_big_circle_margin = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_content_margin_start = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_content_margin_start;
 			global::Microsoft.Identity.Client.Resource.Dimension.notification_large_icon_height = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_large_icon_height;
 			global::Microsoft.Identity.Client.Resource.Dimension.notification_large_icon_width = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_main_column_padding_top = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_media_narrow_margin = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_right_icon_size = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_right_side_padding_top = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_small_icon_background_padding = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_small_icon_size_as_large = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
 			global::Microsoft.Identity.Client.Resource.Dimension.notification_subtext_size = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_subtext_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_top_pad = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_top_pad;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_top_pad_large_text = global::XamarinFluentDemo.Droid.Resource.Dimension.notification_top_pad_large_text;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_action_bar_item_background_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_borderless_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_btn_borderless_material;
@@ -408,17 +466,27 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_cab_background_top_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_cab_background_top_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_control_background_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_control_background_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_dialog_material_background = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_dialog_material_background;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_edit_text_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_ab_back_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_clear_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_clear_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_go_search_api_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_overflow_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_search_api_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_search_api_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_16dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_36dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_48dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_16dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_36dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_48dp = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_voice_search_api_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_item_background_holo_dark = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_item_background_holo_dark;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_item_background_holo_light = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_item_background_holo_light;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_divider_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
@@ -435,6 +503,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_popup_background_mtrl_mult = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_indicator_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ratingbar_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_small_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_ratingbar_small_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
@@ -442,6 +511,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_thumb_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_tick_mark_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_track_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_seekbar_track_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_spinner_textfield_background_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
@@ -450,12 +520,30 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_tab_indicator_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_tab_indicator_material;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_cursor_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_material = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_vector_test = global::XamarinFluentDemo.Droid.Resource.Drawable.abc_vector_test;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_action_background = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_action_background;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg_low;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low_normal = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low_pressed = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_normal = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg_normal;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_normal_pressed = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_icon_background = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_icon_background;
 			global::Microsoft.Identity.Client.Resource.Drawable.notification_template_icon_bg = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_template_icon_low_bg = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_tile_bg = global::XamarinFluentDemo.Droid.Resource.Drawable.notification_tile_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notify_panel_notification_icon_bg = global::XamarinFluentDemo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Microsoft.Identity.Client.Resource.Id.action0 = global::XamarinFluentDemo.Droid.Resource.Id.action0;
 			global::Microsoft.Identity.Client.Resource.Id.action_bar = global::XamarinFluentDemo.Droid.Resource.Id.action_bar;
 			global::Microsoft.Identity.Client.Resource.Id.action_bar_activity_content = global::XamarinFluentDemo.Droid.Resource.Id.action_bar_activity_content;
@@ -464,18 +552,24 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Id.action_bar_spinner = global::XamarinFluentDemo.Droid.Resource.Id.action_bar_spinner;
 			global::Microsoft.Identity.Client.Resource.Id.action_bar_subtitle = global::XamarinFluentDemo.Droid.Resource.Id.action_bar_subtitle;
 			global::Microsoft.Identity.Client.Resource.Id.action_bar_title = global::XamarinFluentDemo.Droid.Resource.Id.action_bar_title;
+			global::Microsoft.Identity.Client.Resource.Id.action_container = global::XamarinFluentDemo.Droid.Resource.Id.action_container;
 			global::Microsoft.Identity.Client.Resource.Id.action_context_bar = global::XamarinFluentDemo.Droid.Resource.Id.action_context_bar;
 			global::Microsoft.Identity.Client.Resource.Id.action_divider = global::XamarinFluentDemo.Droid.Resource.Id.action_divider;
+			global::Microsoft.Identity.Client.Resource.Id.action_image = global::XamarinFluentDemo.Droid.Resource.Id.action_image;
 			global::Microsoft.Identity.Client.Resource.Id.action_menu_divider = global::XamarinFluentDemo.Droid.Resource.Id.action_menu_divider;
 			global::Microsoft.Identity.Client.Resource.Id.action_menu_presenter = global::XamarinFluentDemo.Droid.Resource.Id.action_menu_presenter;
 			global::Microsoft.Identity.Client.Resource.Id.action_mode_bar = global::XamarinFluentDemo.Droid.Resource.Id.action_mode_bar;
 			global::Microsoft.Identity.Client.Resource.Id.action_mode_bar_stub = global::XamarinFluentDemo.Droid.Resource.Id.action_mode_bar_stub;
 			global::Microsoft.Identity.Client.Resource.Id.action_mode_close_button = global::XamarinFluentDemo.Droid.Resource.Id.action_mode_close_button;
+			global::Microsoft.Identity.Client.Resource.Id.action_text = global::XamarinFluentDemo.Droid.Resource.Id.action_text;
+			global::Microsoft.Identity.Client.Resource.Id.actions = global::XamarinFluentDemo.Droid.Resource.Id.actions;
 			global::Microsoft.Identity.Client.Resource.Id.activity_chooser_view_content = global::XamarinFluentDemo.Droid.Resource.Id.activity_chooser_view_content;
+			global::Microsoft.Identity.Client.Resource.Id.add = global::XamarinFluentDemo.Droid.Resource.Id.add;
 			global::Microsoft.Identity.Client.Resource.Id.agentWebView = global::XamarinFluentDemo.Droid.Resource.Id.agentWebView;
 			global::Microsoft.Identity.Client.Resource.Id.alertTitle = global::XamarinFluentDemo.Droid.Resource.Id.alertTitle;
 			global::Microsoft.Identity.Client.Resource.Id.always = global::XamarinFluentDemo.Droid.Resource.Id.always;
 			global::Microsoft.Identity.Client.Resource.Id.beginning = global::XamarinFluentDemo.Droid.Resource.Id.beginning;
+			global::Microsoft.Identity.Client.Resource.Id.bottom = global::XamarinFluentDemo.Droid.Resource.Id.bottom;
 			global::Microsoft.Identity.Client.Resource.Id.buttonPanel = global::XamarinFluentDemo.Droid.Resource.Id.buttonPanel;
 			global::Microsoft.Identity.Client.Resource.Id.cancel_action = global::XamarinFluentDemo.Droid.Resource.Id.cancel_action;
 			global::Microsoft.Identity.Client.Resource.Id.checkbox = global::XamarinFluentDemo.Droid.Resource.Id.checkbox;
@@ -495,6 +589,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Id.home = global::XamarinFluentDemo.Droid.Resource.Id.home;
 			global::Microsoft.Identity.Client.Resource.Id.homeAsUp = global::XamarinFluentDemo.Droid.Resource.Id.homeAsUp;
 			global::Microsoft.Identity.Client.Resource.Id.icon = global::XamarinFluentDemo.Droid.Resource.Id.icon;
+			global::Microsoft.Identity.Client.Resource.Id.icon_group = global::XamarinFluentDemo.Droid.Resource.Id.icon_group;
 			global::Microsoft.Identity.Client.Resource.Id.ifRoom = global::XamarinFluentDemo.Droid.Resource.Id.ifRoom;
 			global::Microsoft.Identity.Client.Resource.Id.image = global::XamarinFluentDemo.Droid.Resource.Id.image;
 			global::Microsoft.Identity.Client.Resource.Id.info = global::XamarinFluentDemo.Droid.Resource.Id.info;
@@ -508,10 +603,15 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Id.never = global::XamarinFluentDemo.Droid.Resource.Id.never;
 			global::Microsoft.Identity.Client.Resource.Id.none = global::XamarinFluentDemo.Droid.Resource.Id.none;
 			global::Microsoft.Identity.Client.Resource.Id.normal = global::XamarinFluentDemo.Droid.Resource.Id.normal;
+			global::Microsoft.Identity.Client.Resource.Id.notification_background = global::XamarinFluentDemo.Droid.Resource.Id.notification_background;
+			global::Microsoft.Identity.Client.Resource.Id.notification_main_column = global::XamarinFluentDemo.Droid.Resource.Id.notification_main_column;
+			global::Microsoft.Identity.Client.Resource.Id.notification_main_column_container = global::XamarinFluentDemo.Droid.Resource.Id.notification_main_column_container;
 			global::Microsoft.Identity.Client.Resource.Id.parentPanel = global::XamarinFluentDemo.Droid.Resource.Id.parentPanel;
 			global::Microsoft.Identity.Client.Resource.Id.progress_circular = global::XamarinFluentDemo.Droid.Resource.Id.progress_circular;
 			global::Microsoft.Identity.Client.Resource.Id.progress_horizontal = global::XamarinFluentDemo.Droid.Resource.Id.progress_horizontal;
 			global::Microsoft.Identity.Client.Resource.Id.radio = global::XamarinFluentDemo.Droid.Resource.Id.radio;
+			global::Microsoft.Identity.Client.Resource.Id.right_icon = global::XamarinFluentDemo.Droid.Resource.Id.right_icon;
+			global::Microsoft.Identity.Client.Resource.Id.right_side = global::XamarinFluentDemo.Droid.Resource.Id.right_side;
 			global::Microsoft.Identity.Client.Resource.Id.screen = global::XamarinFluentDemo.Droid.Resource.Id.screen;
 			global::Microsoft.Identity.Client.Resource.Id.scrollIndicatorDown = global::XamarinFluentDemo.Droid.Resource.Id.scrollIndicatorDown;
 			global::Microsoft.Identity.Client.Resource.Id.scrollIndicatorUp = global::XamarinFluentDemo.Droid.Resource.Id.scrollIndicatorUp;
@@ -537,14 +637,18 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Id.src_in = global::XamarinFluentDemo.Droid.Resource.Id.src_in;
 			global::Microsoft.Identity.Client.Resource.Id.src_over = global::XamarinFluentDemo.Droid.Resource.Id.src_over;
 			global::Microsoft.Identity.Client.Resource.Id.status_bar_latest_event_content = global::XamarinFluentDemo.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Microsoft.Identity.Client.Resource.Id.submenuarrow = global::XamarinFluentDemo.Droid.Resource.Id.submenuarrow;
 			global::Microsoft.Identity.Client.Resource.Id.submit_area = global::XamarinFluentDemo.Droid.Resource.Id.submit_area;
 			global::Microsoft.Identity.Client.Resource.Id.tabMode = global::XamarinFluentDemo.Droid.Resource.Id.tabMode;
 			global::Microsoft.Identity.Client.Resource.Id.text = global::XamarinFluentDemo.Droid.Resource.Id.text;
 			global::Microsoft.Identity.Client.Resource.Id.text2 = global::XamarinFluentDemo.Droid.Resource.Id.text2;
 			global::Microsoft.Identity.Client.Resource.Id.textSpacerNoButtons = global::XamarinFluentDemo.Droid.Resource.Id.textSpacerNoButtons;
+			global::Microsoft.Identity.Client.Resource.Id.textSpacerNoTitle = global::XamarinFluentDemo.Droid.Resource.Id.textSpacerNoTitle;
 			global::Microsoft.Identity.Client.Resource.Id.time = global::XamarinFluentDemo.Droid.Resource.Id.time;
 			global::Microsoft.Identity.Client.Resource.Id.title = global::XamarinFluentDemo.Droid.Resource.Id.title;
+			global::Microsoft.Identity.Client.Resource.Id.titleDividerNoCustom = global::XamarinFluentDemo.Droid.Resource.Id.titleDividerNoCustom;
 			global::Microsoft.Identity.Client.Resource.Id.title_template = global::XamarinFluentDemo.Droid.Resource.Id.title_template;
+			global::Microsoft.Identity.Client.Resource.Id.top = global::XamarinFluentDemo.Droid.Resource.Id.top;
 			global::Microsoft.Identity.Client.Resource.Id.topPanel = global::XamarinFluentDemo.Droid.Resource.Id.topPanel;
 			global::Microsoft.Identity.Client.Resource.Id.up = global::XamarinFluentDemo.Droid.Resource.Id.up;
 			global::Microsoft.Identity.Client.Resource.Id.useLogo = global::XamarinFluentDemo.Droid.Resource.Id.useLogo;
@@ -565,12 +669,14 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Layout.abc_activity_chooser_view_list_item = global::XamarinFluentDemo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_button_bar_material = global::XamarinFluentDemo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_material = global::XamarinFluentDemo.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_title_material = global::XamarinFluentDemo.Droid.Resource.Layout.abc_alert_dialog_title_material;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_dialog_title_material = global::XamarinFluentDemo.Droid.Resource.Layout.abc_dialog_title_material;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_expanded_menu_layout = global::XamarinFluentDemo.Droid.Resource.Layout.abc_expanded_menu_layout;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_checkbox = global::XamarinFluentDemo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_icon = global::XamarinFluentDemo.Droid.Resource.Layout.abc_list_menu_item_icon;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_layout = global::XamarinFluentDemo.Droid.Resource.Layout.abc_list_menu_item_layout;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_radio = global::XamarinFluentDemo.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_popup_menu_header_item_layout = global::XamarinFluentDemo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_popup_menu_item_layout = global::XamarinFluentDemo.Droid.Resource.Layout.abc_popup_menu_item_layout;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_content_include = global::XamarinFluentDemo.Droid.Resource.Layout.abc_screen_content_include;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_simple = global::XamarinFluentDemo.Droid.Resource.Layout.abc_screen_simple;
@@ -579,11 +685,19 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Layout.abc_search_dropdown_item_icons_2line = global::XamarinFluentDemo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_search_view = global::XamarinFluentDemo.Droid.Resource.Layout.abc_search_view;
 			global::Microsoft.Identity.Client.Resource.Layout.abc_select_dialog_material = global::XamarinFluentDemo.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_action = global::XamarinFluentDemo.Droid.Resource.Layout.notification_action;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_action_tombstone = global::XamarinFluentDemo.Droid.Resource.Layout.notification_action_tombstone;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_media_action = global::XamarinFluentDemo.Droid.Resource.Layout.notification_media_action;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_media_cancel_action = global::XamarinFluentDemo.Droid.Resource.Layout.notification_media_cancel_action;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_big_media;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_custom = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_big_media_custom;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_narrow = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_narrow_custom = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_custom_big = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_custom_big;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_icon_group = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_icon_group;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_lines_media = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_lines_media;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_template_media = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_media;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_media_custom = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_media_custom;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_template_part_chronometer = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Microsoft.Identity.Client.Resource.Layout.notification_template_part_time = global::XamarinFluentDemo.Droid.Resource.Layout.notification_template_part_time;
 			global::Microsoft.Identity.Client.Resource.Layout.select_dialog_item_material = global::XamarinFluentDemo.Droid.Resource.Layout.select_dialog_item_material;
@@ -602,6 +716,18 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.String.abc_activitychooserview_choose_application = global::XamarinFluentDemo.Droid.Resource.String.abc_activitychooserview_choose_application;
 			global::Microsoft.Identity.Client.Resource.String.abc_capital_off = global::XamarinFluentDemo.Droid.Resource.String.abc_capital_off;
 			global::Microsoft.Identity.Client.Resource.String.abc_capital_on = global::XamarinFluentDemo.Droid.Resource.String.abc_capital_on;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_body_1_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_body_2_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_button_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_button_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_caption_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_caption_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_1_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_2_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_3_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_4_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_headline_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_headline_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_menu_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_menu_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_subhead_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_title_material = global::XamarinFluentDemo.Droid.Resource.String.abc_font_family_title_material;
 			global::Microsoft.Identity.Client.Resource.String.abc_search_hint = global::XamarinFluentDemo.Droid.Resource.String.abc_search_hint;
 			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_clear = global::XamarinFluentDemo.Droid.Resource.String.abc_searchview_description_clear;
 			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_query = global::XamarinFluentDemo.Droid.Resource.String.abc_searchview_description_query;
@@ -611,6 +737,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.String.abc_shareactionprovider_share_with = global::XamarinFluentDemo.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Microsoft.Identity.Client.Resource.String.abc_shareactionprovider_share_with_application = global::XamarinFluentDemo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Microsoft.Identity.Client.Resource.String.abc_toolbar_collapse_description = global::XamarinFluentDemo.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Microsoft.Identity.Client.Resource.String.search_menu_title = global::XamarinFluentDemo.Droid.Resource.String.search_menu_title;
 			global::Microsoft.Identity.Client.Resource.String.status_bar_notification_info_overflow = global::XamarinFluentDemo.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Microsoft.Identity.Client.Resource.Style.AlertDialog_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Microsoft.Identity.Client.Resource.Style.AlertDialog_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
@@ -657,8 +784,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::XamarinFluentDemo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
@@ -684,15 +814,19 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
 			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
 			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::XamarinFluentDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::XamarinFluentDemo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V22_Theme_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V22_Theme_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V23_Theme_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -701,6 +835,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::XamarinFluentDemo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
@@ -738,6 +873,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListView = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
@@ -753,6 +889,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SearchView = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SeekBar = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Spinner = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
 			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::XamarinFluentDemo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
@@ -767,6 +904,8 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Platform_V11_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Platform_V14_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.Platform_V14_AppCompat;
 			global::Microsoft.Identity.Client.Resource.Style.Platform_V14_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V21_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V21_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Platform_Widget_AppCompat_Spinner = global::XamarinFluentDemo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
 			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::XamarinFluentDemo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
 			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::XamarinFluentDemo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
@@ -802,6 +941,16 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Medium = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Menu = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Small = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
@@ -820,8 +969,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::XamarinFluentDemo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
@@ -859,6 +1011,8 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dark = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
 			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Light = global::XamarinFluentDemo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
@@ -908,10 +1062,13 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_SearchView = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListMenuView = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListPopupWindow = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ListView;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView_DropDown = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView_Menu = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_NotificationActionText = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupMenu = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupWindow = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
@@ -923,6 +1080,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SearchView = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_SearchView;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SeekBar = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Spinner;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
 			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::XamarinFluentDemo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
@@ -935,9 +1093,11 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_backgroundSplit = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_backgroundStacked = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetEnd = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetLeft = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetRight = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetStart = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_customNavigationLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_displayOptions = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_displayOptions;
 			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_divider = global::XamarinFluentDemo.Droid.Resource.Styleable.ActionBar_divider;
@@ -979,10 +1139,24 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_listItemLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
 			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_listLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.AlertDialog_listLayout;
 			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_showTitle = global::XamarinFluentDemo.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatImageView;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_android_src = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_srcCompat = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_android_thumb = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMark = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextView;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView_android_textAppearance = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView_textAllCaps = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
@@ -1036,6 +1210,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_checkboxStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorAccent = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorControlActivated = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
@@ -1057,6 +1232,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
@@ -1082,6 +1258,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
@@ -1101,6 +1278,10 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowNoTitle = global::XamarinFluentDemo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
 			global::Microsoft.Identity.Client.Resource.Styleable.ButtonBarLayout = global::XamarinFluentDemo.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Microsoft.Identity.Client.Resource.Styleable.ButtonBarLayout_allowStacking = global::XamarinFluentDemo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem = global::XamarinFluentDemo.Droid.Resource.Styleable.ColorStateListItem;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_alpha = global::XamarinFluentDemo.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_android_alpha = global::XamarinFluentDemo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_android_color = global::XamarinFluentDemo.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton = global::XamarinFluentDemo.Droid.Resource.Styleable.CompoundButton;
 			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton_android_button = global::XamarinFluentDemo.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton_buttonTint = global::XamarinFluentDemo.Droid.Resource.Styleable.CompoundButton_buttonTint;
@@ -1166,11 +1347,16 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_verticalDivider = global::XamarinFluentDemo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
 			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_windowAnimationStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_preserveIconSpacing = global::XamarinFluentDemo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_subMenuArrow = global::XamarinFluentDemo.Droid.Resource.Styleable.MenuView_subMenuArrow;
 			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindow;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_android_popupBackground = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_overlapAnchor = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
 			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindowBackgroundState = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::XamarinFluentDemo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView = global::XamarinFluentDemo.Droid.Resource.Styleable.RecycleListView;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::XamarinFluentDemo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::XamarinFluentDemo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Microsoft.Identity.Client.Resource.Styleable.SearchView = global::XamarinFluentDemo.Droid.Resource.Styleable.SearchView;
 			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_focusable = global::XamarinFluentDemo.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_imeOptions = global::XamarinFluentDemo.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -1205,13 +1391,18 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_switchPadding = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
 			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_switchTextAppearance = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
 			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTextPadding = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTint = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTintMode = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
 			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_track = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_trackTint = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_trackTintMode = global::XamarinFluentDemo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowColor = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowDx = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowDy = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowRadius = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textColor = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textColorHint = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textSize = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textStyle = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_typeface = global::XamarinFluentDemo.Droid.Resource.Styleable.TextAppearance_android_typeface;
@@ -1219,12 +1410,15 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_android_gravity = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_android_minHeight = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_buttonGravity = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_buttonGravity;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_collapseContentDescription = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_collapseIcon = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_collapseIcon;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetEnd = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetLeft = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetRight = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetStart = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_logo = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_logo;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_logoDescription = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_logoDescription;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_maxButtonHeight = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
@@ -1235,6 +1429,7 @@ namespace XamarinFluentDemo.Droid
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_subtitleTextAppearance = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_subtitleTextColor = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_title = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_title;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMargin = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_titleMargin;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginBottom = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginEnd = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
 			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginStart = global::XamarinFluentDemo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
@@ -1339,134 +1534,134 @@ namespace XamarinFluentDemo.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f01005f
-			public const int actionBarDivider = 2130772063;
-			
-			// aapt resource value: 0x7f010060
-			public const int actionBarItemBackground = 2130772064;
-			
-			// aapt resource value: 0x7f010059
-			public const int actionBarPopupTheme = 2130772057;
+			// aapt resource value: 0x7f01005d
+			public const int actionBarDivider = 2130772061;
 			
 			// aapt resource value: 0x7f01005e
-			public const int actionBarSize = 2130772062;
-			
-			// aapt resource value: 0x7f01005b
-			public const int actionBarSplitStyle = 2130772059;
-			
-			// aapt resource value: 0x7f01005a
-			public const int actionBarStyle = 2130772058;
-			
-			// aapt resource value: 0x7f010055
-			public const int actionBarTabBarStyle = 2130772053;
-			
-			// aapt resource value: 0x7f010054
-			public const int actionBarTabStyle = 2130772052;
-			
-			// aapt resource value: 0x7f010056
-			public const int actionBarTabTextStyle = 2130772054;
-			
-			// aapt resource value: 0x7f01005c
-			public const int actionBarTheme = 2130772060;
-			
-			// aapt resource value: 0x7f01005d
-			public const int actionBarWidgetTheme = 2130772061;
-			
-			// aapt resource value: 0x7f01007a
-			public const int actionButtonStyle = 2130772090;
-			
-			// aapt resource value: 0x7f010076
-			public const int actionDropDownStyle = 2130772086;
-			
-			// aapt resource value: 0x7f0100cc
-			public const int actionLayout = 2130772172;
-			
-			// aapt resource value: 0x7f010061
-			public const int actionMenuTextAppearance = 2130772065;
-			
-			// aapt resource value: 0x7f010062
-			public const int actionMenuTextColor = 2130772066;
-			
-			// aapt resource value: 0x7f010065
-			public const int actionModeBackground = 2130772069;
-			
-			// aapt resource value: 0x7f010064
-			public const int actionModeCloseButtonStyle = 2130772068;
-			
-			// aapt resource value: 0x7f010067
-			public const int actionModeCloseDrawable = 2130772071;
-			
-			// aapt resource value: 0x7f010069
-			public const int actionModeCopyDrawable = 2130772073;
-			
-			// aapt resource value: 0x7f010068
-			public const int actionModeCutDrawable = 2130772072;
-			
-			// aapt resource value: 0x7f01006d
-			public const int actionModeFindDrawable = 2130772077;
-			
-			// aapt resource value: 0x7f01006a
-			public const int actionModePasteDrawable = 2130772074;
-			
-			// aapt resource value: 0x7f01006f
-			public const int actionModePopupWindowStyle = 2130772079;
-			
-			// aapt resource value: 0x7f01006b
-			public const int actionModeSelectAllDrawable = 2130772075;
-			
-			// aapt resource value: 0x7f01006c
-			public const int actionModeShareDrawable = 2130772076;
-			
-			// aapt resource value: 0x7f010066
-			public const int actionModeSplitBackground = 2130772070;
-			
-			// aapt resource value: 0x7f010063
-			public const int actionModeStyle = 2130772067;
-			
-			// aapt resource value: 0x7f01006e
-			public const int actionModeWebSearchDrawable = 2130772078;
+			public const int actionBarItemBackground = 2130772062;
 			
 			// aapt resource value: 0x7f010057
-			public const int actionOverflowButtonStyle = 2130772055;
+			public const int actionBarPopupTheme = 2130772055;
+			
+			// aapt resource value: 0x7f01005c
+			public const int actionBarSize = 2130772060;
+			
+			// aapt resource value: 0x7f010059
+			public const int actionBarSplitStyle = 2130772057;
 			
 			// aapt resource value: 0x7f010058
-			public const int actionOverflowMenuStyle = 2130772056;
+			public const int actionBarStyle = 2130772056;
 			
-			// aapt resource value: 0x7f0100ce
-			public const int actionProviderClass = 2130772174;
+			// aapt resource value: 0x7f010053
+			public const int actionBarTabBarStyle = 2130772051;
 			
-			// aapt resource value: 0x7f0100cd
-			public const int actionViewClass = 2130772173;
+			// aapt resource value: 0x7f010052
+			public const int actionBarTabStyle = 2130772050;
 			
-			// aapt resource value: 0x7f010082
-			public const int activityChooserViewStyle = 2130772098;
+			// aapt resource value: 0x7f010054
+			public const int actionBarTabTextStyle = 2130772052;
 			
-			// aapt resource value: 0x7f0100a7
-			public const int alertDialogButtonGroupStyle = 2130772135;
+			// aapt resource value: 0x7f01005a
+			public const int actionBarTheme = 2130772058;
 			
-			// aapt resource value: 0x7f0100a8
-			public const int alertDialogCenterButtons = 2130772136;
+			// aapt resource value: 0x7f01005b
+			public const int actionBarWidgetTheme = 2130772059;
+			
+			// aapt resource value: 0x7f010078
+			public const int actionButtonStyle = 2130772088;
+			
+			// aapt resource value: 0x7f010074
+			public const int actionDropDownStyle = 2130772084;
+			
+			// aapt resource value: 0x7f0100c9
+			public const int actionLayout = 2130772169;
+			
+			// aapt resource value: 0x7f01005f
+			public const int actionMenuTextAppearance = 2130772063;
+			
+			// aapt resource value: 0x7f010060
+			public const int actionMenuTextColor = 2130772064;
+			
+			// aapt resource value: 0x7f010063
+			public const int actionModeBackground = 2130772067;
+			
+			// aapt resource value: 0x7f010062
+			public const int actionModeCloseButtonStyle = 2130772066;
+			
+			// aapt resource value: 0x7f010065
+			public const int actionModeCloseDrawable = 2130772069;
+			
+			// aapt resource value: 0x7f010067
+			public const int actionModeCopyDrawable = 2130772071;
+			
+			// aapt resource value: 0x7f010066
+			public const int actionModeCutDrawable = 2130772070;
+			
+			// aapt resource value: 0x7f01006b
+			public const int actionModeFindDrawable = 2130772075;
+			
+			// aapt resource value: 0x7f010068
+			public const int actionModePasteDrawable = 2130772072;
+			
+			// aapt resource value: 0x7f01006d
+			public const int actionModePopupWindowStyle = 2130772077;
+			
+			// aapt resource value: 0x7f010069
+			public const int actionModeSelectAllDrawable = 2130772073;
+			
+			// aapt resource value: 0x7f01006a
+			public const int actionModeShareDrawable = 2130772074;
+			
+			// aapt resource value: 0x7f010064
+			public const int actionModeSplitBackground = 2130772068;
+			
+			// aapt resource value: 0x7f010061
+			public const int actionModeStyle = 2130772065;
+			
+			// aapt resource value: 0x7f01006c
+			public const int actionModeWebSearchDrawable = 2130772076;
+			
+			// aapt resource value: 0x7f010055
+			public const int actionOverflowButtonStyle = 2130772053;
+			
+			// aapt resource value: 0x7f010056
+			public const int actionOverflowMenuStyle = 2130772054;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int actionProviderClass = 2130772171;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int actionViewClass = 2130772170;
+			
+			// aapt resource value: 0x7f010080
+			public const int activityChooserViewStyle = 2130772096;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int alertDialogButtonGroupStyle = 2130772132;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int alertDialogCenterButtons = 2130772133;
+			
+			// aapt resource value: 0x7f0100a3
+			public const int alertDialogStyle = 2130772131;
 			
 			// aapt resource value: 0x7f0100a6
-			public const int alertDialogStyle = 2130772134;
+			public const int alertDialogTheme = 2130772134;
 			
-			// aapt resource value: 0x7f0100a9
-			public const int alertDialogTheme = 2130772137;
+			// aapt resource value: 0x7f0100b9
+			public const int allowStacking = 2130772153;
 			
-			// aapt resource value: 0x7f0100bc
-			public const int allowStacking = 2130772156;
+			// aapt resource value: 0x7f0100ba
+			public const int alpha = 2130772154;
 			
-			// aapt resource value: 0x7f0100bd
-			public const int alpha = 2130772157;
+			// aapt resource value: 0x7f0100c1
+			public const int arrowHeadLength = 2130772161;
 			
-			// aapt resource value: 0x7f0100c4
-			public const int arrowHeadLength = 2130772164;
+			// aapt resource value: 0x7f0100c2
+			public const int arrowShaftLength = 2130772162;
 			
-			// aapt resource value: 0x7f0100c5
-			public const int arrowShaftLength = 2130772165;
-			
-			// aapt resource value: 0x7f0100ae
-			public const int autoCompleteTextViewStyle = 2130772142;
+			// aapt resource value: 0x7f0100ab
+			public const int autoCompleteTextViewStyle = 2130772139;
 			
 			// aapt resource value: 0x7f010028
 			public const int background = 2130772008;
@@ -1477,74 +1672,74 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010029
 			public const int backgroundStacked = 2130772009;
 			
-			// aapt resource value: 0x7f010101
-			public const int backgroundTint = 2130772225;
+			// aapt resource value: 0x7f0100fe
+			public const int backgroundTint = 2130772222;
 			
-			// aapt resource value: 0x7f010102
-			public const int backgroundTintMode = 2130772226;
+			// aapt resource value: 0x7f0100ff
+			public const int backgroundTintMode = 2130772223;
 			
-			// aapt resource value: 0x7f0100c6
-			public const int barLength = 2130772166;
+			// aapt resource value: 0x7f0100c3
+			public const int barLength = 2130772163;
 			
-			// aapt resource value: 0x7f01012c
-			public const int behavior_autoHide = 2130772268;
+			// aapt resource value: 0x7f010129
+			public const int behavior_autoHide = 2130772265;
 			
-			// aapt resource value: 0x7f010109
-			public const int behavior_hideable = 2130772233;
+			// aapt resource value: 0x7f010106
+			public const int behavior_hideable = 2130772230;
 			
-			// aapt resource value: 0x7f010135
-			public const int behavior_overlapTop = 2130772277;
+			// aapt resource value: 0x7f010132
+			public const int behavior_overlapTop = 2130772274;
 			
-			// aapt resource value: 0x7f010108
-			public const int behavior_peekHeight = 2130772232;
+			// aapt resource value: 0x7f010105
+			public const int behavior_peekHeight = 2130772229;
 			
-			// aapt resource value: 0x7f01010a
-			public const int behavior_skipCollapsed = 2130772234;
+			// aapt resource value: 0x7f010107
+			public const int behavior_skipCollapsed = 2130772231;
 			
-			// aapt resource value: 0x7f01012a
-			public const int borderWidth = 2130772266;
+			// aapt resource value: 0x7f010127
+			public const int borderWidth = 2130772263;
 			
-			// aapt resource value: 0x7f01007f
-			public const int borderlessButtonStyle = 2130772095;
+			// aapt resource value: 0x7f01007d
+			public const int borderlessButtonStyle = 2130772093;
 			
-			// aapt resource value: 0x7f010124
-			public const int bottomSheetDialogTheme = 2130772260;
+			// aapt resource value: 0x7f010121
+			public const int bottomSheetDialogTheme = 2130772257;
 			
-			// aapt resource value: 0x7f010125
-			public const int bottomSheetStyle = 2130772261;
+			// aapt resource value: 0x7f010122
+			public const int bottomSheetStyle = 2130772258;
 			
-			// aapt resource value: 0x7f01007c
-			public const int buttonBarButtonStyle = 2130772092;
+			// aapt resource value: 0x7f01007a
+			public const int buttonBarButtonStyle = 2130772090;
 			
-			// aapt resource value: 0x7f0100ac
-			public const int buttonBarNegativeButtonStyle = 2130772140;
+			// aapt resource value: 0x7f0100a9
+			public const int buttonBarNegativeButtonStyle = 2130772137;
 			
-			// aapt resource value: 0x7f0100ad
-			public const int buttonBarNeutralButtonStyle = 2130772141;
+			// aapt resource value: 0x7f0100aa
+			public const int buttonBarNeutralButtonStyle = 2130772138;
 			
-			// aapt resource value: 0x7f0100ab
-			public const int buttonBarPositiveButtonStyle = 2130772139;
+			// aapt resource value: 0x7f0100a8
+			public const int buttonBarPositiveButtonStyle = 2130772136;
 			
-			// aapt resource value: 0x7f01007b
-			public const int buttonBarStyle = 2130772091;
+			// aapt resource value: 0x7f010079
+			public const int buttonBarStyle = 2130772089;
 			
-			// aapt resource value: 0x7f0100f6
-			public const int buttonGravity = 2130772214;
+			// aapt resource value: 0x7f0100f3
+			public const int buttonGravity = 2130772211;
 			
 			// aapt resource value: 0x7f01003d
 			public const int buttonPanelSideLayout = 2130772029;
 			
-			// aapt resource value: 0x7f0100af
-			public const int buttonStyle = 2130772143;
+			// aapt resource value: 0x7f0100ac
+			public const int buttonStyle = 2130772140;
 			
-			// aapt resource value: 0x7f0100b0
-			public const int buttonStyleSmall = 2130772144;
+			// aapt resource value: 0x7f0100ad
+			public const int buttonStyleSmall = 2130772141;
 			
-			// aapt resource value: 0x7f0100be
-			public const int buttonTint = 2130772158;
+			// aapt resource value: 0x7f0100bb
+			public const int buttonTint = 2130772155;
 			
-			// aapt resource value: 0x7f0100bf
-			public const int buttonTintMode = 2130772159;
+			// aapt resource value: 0x7f0100bc
+			public const int buttonTintMode = 2130772156;
 			
 			// aapt resource value: 0x7f010011
 			public const int cardBackgroundColor = 2130771985;
@@ -1564,62 +1759,62 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010015
 			public const int cardUseCompatPadding = 2130771989;
 			
-			// aapt resource value: 0x7f0100b1
-			public const int checkboxStyle = 2130772145;
+			// aapt resource value: 0x7f0100ae
+			public const int checkboxStyle = 2130772142;
 			
-			// aapt resource value: 0x7f0100b2
-			public const int checkedTextViewStyle = 2130772146;
+			// aapt resource value: 0x7f0100af
+			public const int checkedTextViewStyle = 2130772143;
 			
-			// aapt resource value: 0x7f0100d9
-			public const int closeIcon = 2130772185;
+			// aapt resource value: 0x7f0100d6
+			public const int closeIcon = 2130772182;
 			
 			// aapt resource value: 0x7f01003a
 			public const int closeItemLayout = 2130772026;
 			
-			// aapt resource value: 0x7f0100f8
-			public const int collapseContentDescription = 2130772216;
+			// aapt resource value: 0x7f0100f5
+			public const int collapseContentDescription = 2130772213;
 			
-			// aapt resource value: 0x7f0100f7
-			public const int collapseIcon = 2130772215;
+			// aapt resource value: 0x7f0100f4
+			public const int collapseIcon = 2130772212;
 			
-			// aapt resource value: 0x7f010117
-			public const int collapsedTitleGravity = 2130772247;
+			// aapt resource value: 0x7f010114
+			public const int collapsedTitleGravity = 2130772244;
 			
-			// aapt resource value: 0x7f010111
-			public const int collapsedTitleTextAppearance = 2130772241;
+			// aapt resource value: 0x7f01010e
+			public const int collapsedTitleTextAppearance = 2130772238;
 			
-			// aapt resource value: 0x7f0100c0
-			public const int color = 2130772160;
+			// aapt resource value: 0x7f0100bd
+			public const int color = 2130772157;
 			
-			// aapt resource value: 0x7f01009e
-			public const int colorAccent = 2130772126;
-			
-			// aapt resource value: 0x7f0100a5
-			public const int colorBackgroundFloating = 2130772133;
+			// aapt resource value: 0x7f01009b
+			public const int colorAccent = 2130772123;
 			
 			// aapt resource value: 0x7f0100a2
-			public const int colorButtonNormal = 2130772130;
-			
-			// aapt resource value: 0x7f0100a0
-			public const int colorControlActivated = 2130772128;
-			
-			// aapt resource value: 0x7f0100a1
-			public const int colorControlHighlight = 2130772129;
+			public const int colorBackgroundFloating = 2130772130;
 			
 			// aapt resource value: 0x7f01009f
-			public const int colorControlNormal = 2130772127;
-			
-			// aapt resource value: 0x7f01009c
-			public const int colorPrimary = 2130772124;
+			public const int colorButtonNormal = 2130772127;
 			
 			// aapt resource value: 0x7f01009d
-			public const int colorPrimaryDark = 2130772125;
+			public const int colorControlActivated = 2130772125;
 			
-			// aapt resource value: 0x7f0100a3
-			public const int colorSwitchThumbNormal = 2130772131;
+			// aapt resource value: 0x7f01009e
+			public const int colorControlHighlight = 2130772126;
 			
-			// aapt resource value: 0x7f0100de
-			public const int commitIcon = 2130772190;
+			// aapt resource value: 0x7f01009c
+			public const int colorControlNormal = 2130772124;
+			
+			// aapt resource value: 0x7f010099
+			public const int colorPrimary = 2130772121;
+			
+			// aapt resource value: 0x7f01009a
+			public const int colorPrimaryDark = 2130772122;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int colorSwitchThumbNormal = 2130772128;
+			
+			// aapt resource value: 0x7f0100db
+			public const int commitIcon = 2130772187;
 			
 			// aapt resource value: 0x7f010033
 			public const int contentInsetEnd = 2130772019;
@@ -1654,35 +1849,35 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f01001a
 			public const int contentPaddingTop = 2130771994;
 			
-			// aapt resource value: 0x7f010112
-			public const int contentScrim = 2130772242;
+			// aapt resource value: 0x7f01010f
+			public const int contentScrim = 2130772239;
 			
-			// aapt resource value: 0x7f0100a4
-			public const int controlBackground = 2130772132;
+			// aapt resource value: 0x7f0100a1
+			public const int controlBackground = 2130772129;
+			
+			// aapt resource value: 0x7f010148
+			public const int counterEnabled = 2130772296;
+			
+			// aapt resource value: 0x7f010149
+			public const int counterMaxLength = 2130772297;
 			
 			// aapt resource value: 0x7f01014b
-			public const int counterEnabled = 2130772299;
+			public const int counterOverflowTextAppearance = 2130772299;
 			
-			// aapt resource value: 0x7f01014c
-			public const int counterMaxLength = 2130772300;
-			
-			// aapt resource value: 0x7f01014e
-			public const int counterOverflowTextAppearance = 2130772302;
-			
-			// aapt resource value: 0x7f01014d
-			public const int counterTextAppearance = 2130772301;
+			// aapt resource value: 0x7f01014a
+			public const int counterTextAppearance = 2130772298;
 			
 			// aapt resource value: 0x7f01002b
 			public const int customNavigationLayout = 2130772011;
 			
-			// aapt resource value: 0x7f0100d8
-			public const int defaultQueryHint = 2130772184;
+			// aapt resource value: 0x7f0100d5
+			public const int defaultQueryHint = 2130772181;
 			
-			// aapt resource value: 0x7f010074
-			public const int dialogPreferredPadding = 2130772084;
+			// aapt resource value: 0x7f010072
+			public const int dialogPreferredPadding = 2130772082;
 			
-			// aapt resource value: 0x7f010073
-			public const int dialogTheme = 2130772083;
+			// aapt resource value: 0x7f010071
+			public const int dialogTheme = 2130772081;
 			
 			// aapt resource value: 0x7f010021
 			public const int displayOptions = 2130772001;
@@ -1690,89 +1885,89 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010027
 			public const int divider = 2130772007;
 			
-			// aapt resource value: 0x7f010081
-			public const int dividerHorizontal = 2130772097;
+			// aapt resource value: 0x7f01007f
+			public const int dividerHorizontal = 2130772095;
 			
-			// aapt resource value: 0x7f0100ca
-			public const int dividerPadding = 2130772170;
+			// aapt resource value: 0x7f0100c7
+			public const int dividerPadding = 2130772167;
 			
-			// aapt resource value: 0x7f010080
-			public const int dividerVertical = 2130772096;
+			// aapt resource value: 0x7f01007e
+			public const int dividerVertical = 2130772094;
 			
-			// aapt resource value: 0x7f0100c2
-			public const int drawableSize = 2130772162;
+			// aapt resource value: 0x7f0100bf
+			public const int drawableSize = 2130772159;
 			
 			// aapt resource value: 0x7f01001c
 			public const int drawerArrowStyle = 2130771996;
 			
-			// aapt resource value: 0x7f010093
-			public const int dropDownListViewStyle = 2130772115;
+			// aapt resource value: 0x7f010091
+			public const int dropDownListViewStyle = 2130772113;
 			
-			// aapt resource value: 0x7f010077
-			public const int dropdownListPreferredItemHeight = 2130772087;
+			// aapt resource value: 0x7f010075
+			public const int dropdownListPreferredItemHeight = 2130772085;
 			
-			// aapt resource value: 0x7f010088
-			public const int editTextBackground = 2130772104;
+			// aapt resource value: 0x7f010086
+			public const int editTextBackground = 2130772102;
 			
-			// aapt resource value: 0x7f010087
-			public const int editTextColor = 2130772103;
+			// aapt resource value: 0x7f010085
+			public const int editTextColor = 2130772101;
 			
-			// aapt resource value: 0x7f0100b3
-			public const int editTextStyle = 2130772147;
+			// aapt resource value: 0x7f0100b0
+			public const int editTextStyle = 2130772144;
 			
 			// aapt resource value: 0x7f010038
 			public const int elevation = 2130772024;
 			
-			// aapt resource value: 0x7f010149
-			public const int errorEnabled = 2130772297;
+			// aapt resource value: 0x7f010146
+			public const int errorEnabled = 2130772294;
 			
-			// aapt resource value: 0x7f01014a
-			public const int errorTextAppearance = 2130772298;
+			// aapt resource value: 0x7f010147
+			public const int errorTextAppearance = 2130772295;
 			
 			// aapt resource value: 0x7f01003c
 			public const int expandActivityOverflowButtonDrawable = 2130772028;
 			
-			// aapt resource value: 0x7f010103
-			public const int expanded = 2130772227;
+			// aapt resource value: 0x7f010100
+			public const int expanded = 2130772224;
 			
-			// aapt resource value: 0x7f010118
-			public const int expandedTitleGravity = 2130772248;
+			// aapt resource value: 0x7f010115
+			public const int expandedTitleGravity = 2130772245;
 			
-			// aapt resource value: 0x7f01010b
-			public const int expandedTitleMargin = 2130772235;
-			
-			// aapt resource value: 0x7f01010f
-			public const int expandedTitleMarginBottom = 2130772239;
-			
-			// aapt resource value: 0x7f01010e
-			public const int expandedTitleMarginEnd = 2130772238;
+			// aapt resource value: 0x7f010108
+			public const int expandedTitleMargin = 2130772232;
 			
 			// aapt resource value: 0x7f01010c
-			public const int expandedTitleMarginStart = 2130772236;
+			public const int expandedTitleMarginBottom = 2130772236;
+			
+			// aapt resource value: 0x7f01010b
+			public const int expandedTitleMarginEnd = 2130772235;
+			
+			// aapt resource value: 0x7f010109
+			public const int expandedTitleMarginStart = 2130772233;
+			
+			// aapt resource value: 0x7f01010a
+			public const int expandedTitleMarginTop = 2130772234;
 			
 			// aapt resource value: 0x7f01010d
-			public const int expandedTitleMarginTop = 2130772237;
-			
-			// aapt resource value: 0x7f010110
-			public const int expandedTitleTextAppearance = 2130772240;
+			public const int expandedTitleTextAppearance = 2130772237;
 			
 			// aapt resource value: 0x7f010010
 			public const int externalRouteEnabledDrawable = 2130771984;
 			
-			// aapt resource value: 0x7f010128
-			public const int fabSize = 2130772264;
+			// aapt resource value: 0x7f010125
+			public const int fabSize = 2130772261;
 			
-			// aapt resource value: 0x7f01012d
-			public const int foregroundInsidePadding = 2130772269;
+			// aapt resource value: 0x7f01012a
+			public const int foregroundInsidePadding = 2130772266;
 			
-			// aapt resource value: 0x7f0100c3
-			public const int gapBetweenBars = 2130772163;
+			// aapt resource value: 0x7f0100c0
+			public const int gapBetweenBars = 2130772160;
 			
-			// aapt resource value: 0x7f0100da
-			public const int goIcon = 2130772186;
+			// aapt resource value: 0x7f0100d7
+			public const int goIcon = 2130772183;
 			
-			// aapt resource value: 0x7f010133
-			public const int headerLayout = 2130772275;
+			// aapt resource value: 0x7f010130
+			public const int headerLayout = 2130772272;
 			
 			// aapt resource value: 0x7f01001d
 			public const int height = 2130771997;
@@ -1780,17 +1975,17 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010031
 			public const int hideOnContentScroll = 2130772017;
 			
-			// aapt resource value: 0x7f01014f
-			public const int hintAnimationEnabled = 2130772303;
+			// aapt resource value: 0x7f01014c
+			public const int hintAnimationEnabled = 2130772300;
 			
-			// aapt resource value: 0x7f010148
-			public const int hintEnabled = 2130772296;
+			// aapt resource value: 0x7f010145
+			public const int hintEnabled = 2130772293;
 			
-			// aapt resource value: 0x7f010147
-			public const int hintTextAppearance = 2130772295;
+			// aapt resource value: 0x7f010144
+			public const int hintTextAppearance = 2130772292;
 			
-			// aapt resource value: 0x7f010079
-			public const int homeAsUpIndicator = 2130772089;
+			// aapt resource value: 0x7f010077
+			public const int homeAsUpIndicator = 2130772087;
 			
 			// aapt resource value: 0x7f01002c
 			public const int homeLayout = 2130772012;
@@ -1798,11 +1993,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010025
 			public const int icon = 2130772005;
 			
-			// aapt resource value: 0x7f0100d6
-			public const int iconifiedByDefault = 2130772182;
+			// aapt resource value: 0x7f0100d3
+			public const int iconifiedByDefault = 2130772179;
 			
-			// aapt resource value: 0x7f010089
-			public const int imageButtonStyle = 2130772105;
+			// aapt resource value: 0x7f010087
+			public const int imageButtonStyle = 2130772103;
 			
 			// aapt resource value: 0x7f01002e
 			public const int indeterminateProgressStyle = 2130772014;
@@ -1810,71 +2005,71 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f01003b
 			public const int initialActivityCount = 2130772027;
 			
-			// aapt resource value: 0x7f010134
-			public const int insetForeground = 2130772276;
+			// aapt resource value: 0x7f010131
+			public const int insetForeground = 2130772273;
 			
 			// aapt resource value: 0x7f01001e
 			public const int isLightTheme = 2130771998;
 			
-			// aapt resource value: 0x7f010131
-			public const int itemBackground = 2130772273;
+			// aapt resource value: 0x7f01012e
+			public const int itemBackground = 2130772270;
 			
-			// aapt resource value: 0x7f01012f
-			public const int itemIconTint = 2130772271;
+			// aapt resource value: 0x7f01012c
+			public const int itemIconTint = 2130772268;
 			
 			// aapt resource value: 0x7f010030
 			public const int itemPadding = 2130772016;
 			
-			// aapt resource value: 0x7f010132
-			public const int itemTextAppearance = 2130772274;
+			// aapt resource value: 0x7f01012f
+			public const int itemTextAppearance = 2130772271;
 			
-			// aapt resource value: 0x7f010130
-			public const int itemTextColor = 2130772272;
+			// aapt resource value: 0x7f01012d
+			public const int itemTextColor = 2130772269;
 			
-			// aapt resource value: 0x7f01011c
-			public const int keylines = 2130772252;
+			// aapt resource value: 0x7f010119
+			public const int keylines = 2130772249;
 			
-			// aapt resource value: 0x7f0100d5
-			public const int layout = 2130772181;
+			// aapt resource value: 0x7f0100d2
+			public const int layout = 2130772178;
 			
 			// aapt resource value: 0x7f010000
 			public const int layoutManager = 2130771968;
 			
-			// aapt resource value: 0x7f01011f
-			public const int layout_anchor = 2130772255;
-			
-			// aapt resource value: 0x7f010121
-			public const int layout_anchorGravity = 2130772257;
+			// aapt resource value: 0x7f01011c
+			public const int layout_anchor = 2130772252;
 			
 			// aapt resource value: 0x7f01011e
-			public const int layout_behavior = 2130772254;
-			
-			// aapt resource value: 0x7f01011a
-			public const int layout_collapseMode = 2130772250;
+			public const int layout_anchorGravity = 2130772254;
 			
 			// aapt resource value: 0x7f01011b
-			public const int layout_collapseParallaxMultiplier = 2130772251;
+			public const int layout_behavior = 2130772251;
 			
-			// aapt resource value: 0x7f010123
-			public const int layout_dodgeInsetEdges = 2130772259;
+			// aapt resource value: 0x7f010117
+			public const int layout_collapseMode = 2130772247;
 			
-			// aapt resource value: 0x7f010122
-			public const int layout_insetEdge = 2130772258;
+			// aapt resource value: 0x7f010118
+			public const int layout_collapseParallaxMultiplier = 2130772248;
 			
 			// aapt resource value: 0x7f010120
-			public const int layout_keyline = 2130772256;
+			public const int layout_dodgeInsetEdges = 2130772256;
 			
-			// aapt resource value: 0x7f010106
-			public const int layout_scrollFlags = 2130772230;
+			// aapt resource value: 0x7f01011f
+			public const int layout_insetEdge = 2130772255;
 			
-			// aapt resource value: 0x7f010107
-			public const int layout_scrollInterpolator = 2130772231;
+			// aapt resource value: 0x7f01011d
+			public const int layout_keyline = 2130772253;
 			
-			// aapt resource value: 0x7f01009b
-			public const int listChoiceBackgroundIndicator = 2130772123;
+			// aapt resource value: 0x7f010103
+			public const int layout_scrollFlags = 2130772227;
 			
-			// aapt resource value: 0x7f010075
-			public const int listDividerAlertDialog = 2130772085;
+			// aapt resource value: 0x7f010104
+			public const int layout_scrollInterpolator = 2130772228;
+			
+			// aapt resource value: 0x7f010098
+			public const int listChoiceBackgroundIndicator = 2130772120;
+			
+			// aapt resource value: 0x7f010073
+			public const int listDividerAlertDialog = 2130772083;
 			
 			// aapt resource value: 0x7f010041
 			public const int listItemLayout = 2130772033;
@@ -1882,41 +2077,41 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f01003e
 			public const int listLayout = 2130772030;
 			
-			// aapt resource value: 0x7f0100bb
-			public const int listMenuViewStyle = 2130772155;
-			
-			// aapt resource value: 0x7f010094
-			public const int listPopupWindowStyle = 2130772116;
-			
-			// aapt resource value: 0x7f01008e
-			public const int listPreferredItemHeight = 2130772110;
-			
-			// aapt resource value: 0x7f010090
-			public const int listPreferredItemHeightLarge = 2130772112;
-			
-			// aapt resource value: 0x7f01008f
-			public const int listPreferredItemHeightSmall = 2130772111;
-			
-			// aapt resource value: 0x7f010091
-			public const int listPreferredItemPaddingLeft = 2130772113;
+			// aapt resource value: 0x7f0100b8
+			public const int listMenuViewStyle = 2130772152;
 			
 			// aapt resource value: 0x7f010092
-			public const int listPreferredItemPaddingRight = 2130772114;
+			public const int listPopupWindowStyle = 2130772114;
+			
+			// aapt resource value: 0x7f01008c
+			public const int listPreferredItemHeight = 2130772108;
+			
+			// aapt resource value: 0x7f01008e
+			public const int listPreferredItemHeightLarge = 2130772110;
+			
+			// aapt resource value: 0x7f01008d
+			public const int listPreferredItemHeightSmall = 2130772109;
+			
+			// aapt resource value: 0x7f01008f
+			public const int listPreferredItemPaddingLeft = 2130772111;
+			
+			// aapt resource value: 0x7f010090
+			public const int listPreferredItemPaddingRight = 2130772112;
 			
 			// aapt resource value: 0x7f010026
 			public const int logo = 2130772006;
 			
-			// aapt resource value: 0x7f0100fb
-			public const int logoDescription = 2130772219;
+			// aapt resource value: 0x7f0100f8
+			public const int logoDescription = 2130772216;
 			
-			// aapt resource value: 0x7f010136
-			public const int maxActionInlineWidth = 2130772278;
+			// aapt resource value: 0x7f010133
+			public const int maxActionInlineWidth = 2130772275;
 			
-			// aapt resource value: 0x7f0100f5
-			public const int maxButtonHeight = 2130772213;
+			// aapt resource value: 0x7f0100f2
+			public const int maxButtonHeight = 2130772210;
 			
-			// aapt resource value: 0x7f0100c8
-			public const int measureWithLargestChild = 2130772168;
+			// aapt resource value: 0x7f0100c5
+			public const int measureWithLargestChild = 2130772165;
 			
 			// aapt resource value: 0x7f010004
 			public const int mediaRouteAudioTrackDrawable = 2130771972;
@@ -1954,74 +2149,74 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f01000f
 			public const int mediaRouteTvIconDrawable = 2130771983;
 			
-			// aapt resource value: 0x7f01012e
-			public const int menu = 2130772270;
+			// aapt resource value: 0x7f01012b
+			public const int menu = 2130772267;
 			
 			// aapt resource value: 0x7f01003f
 			public const int multiChoiceItemLayout = 2130772031;
 			
-			// aapt resource value: 0x7f0100fa
-			public const int navigationContentDescription = 2130772218;
+			// aapt resource value: 0x7f0100f7
+			public const int navigationContentDescription = 2130772215;
 			
-			// aapt resource value: 0x7f0100f9
-			public const int navigationIcon = 2130772217;
+			// aapt resource value: 0x7f0100f6
+			public const int navigationIcon = 2130772214;
 			
 			// aapt resource value: 0x7f010020
 			public const int navigationMode = 2130772000;
 			
+			// aapt resource value: 0x7f0100ce
+			public const int overlapAnchor = 2130772174;
+			
+			// aapt resource value: 0x7f0100d0
+			public const int paddingBottomNoButtons = 2130772176;
+			
+			// aapt resource value: 0x7f0100fc
+			public const int paddingEnd = 2130772220;
+			
+			// aapt resource value: 0x7f0100fb
+			public const int paddingStart = 2130772219;
+			
 			// aapt resource value: 0x7f0100d1
-			public const int overlapAnchor = 2130772177;
+			public const int paddingTopNoTitle = 2130772177;
 			
-			// aapt resource value: 0x7f0100d3
-			public const int paddingBottomNoButtons = 2130772179;
+			// aapt resource value: 0x7f010095
+			public const int panelBackground = 2130772117;
 			
-			// aapt resource value: 0x7f0100ff
-			public const int paddingEnd = 2130772223;
+			// aapt resource value: 0x7f010097
+			public const int panelMenuListTheme = 2130772119;
 			
-			// aapt resource value: 0x7f0100fe
-			public const int paddingStart = 2130772222;
+			// aapt resource value: 0x7f010096
+			public const int panelMenuListWidth = 2130772118;
 			
-			// aapt resource value: 0x7f0100d4
-			public const int paddingTopNoTitle = 2130772180;
+			// aapt resource value: 0x7f01014f
+			public const int passwordToggleContentDescription = 2130772303;
 			
-			// aapt resource value: 0x7f010098
-			public const int panelBackground = 2130772120;
+			// aapt resource value: 0x7f01014e
+			public const int passwordToggleDrawable = 2130772302;
 			
-			// aapt resource value: 0x7f01009a
-			public const int panelMenuListTheme = 2130772122;
-			
-			// aapt resource value: 0x7f010099
-			public const int panelMenuListWidth = 2130772121;
-			
-			// aapt resource value: 0x7f010152
-			public const int passwordToggleContentDescription = 2130772306;
-			
-			// aapt resource value: 0x7f010151
-			public const int passwordToggleDrawable = 2130772305;
+			// aapt resource value: 0x7f01014d
+			public const int passwordToggleEnabled = 2130772301;
 			
 			// aapt resource value: 0x7f010150
-			public const int passwordToggleEnabled = 2130772304;
+			public const int passwordToggleTint = 2130772304;
 			
-			// aapt resource value: 0x7f010153
-			public const int passwordToggleTint = 2130772307;
+			// aapt resource value: 0x7f010151
+			public const int passwordToggleTintMode = 2130772305;
 			
-			// aapt resource value: 0x7f010154
-			public const int passwordToggleTintMode = 2130772308;
-			
-			// aapt resource value: 0x7f010085
-			public const int popupMenuStyle = 2130772101;
+			// aapt resource value: 0x7f010083
+			public const int popupMenuStyle = 2130772099;
 			
 			// aapt resource value: 0x7f010039
 			public const int popupTheme = 2130772025;
 			
-			// aapt resource value: 0x7f010086
-			public const int popupWindowStyle = 2130772102;
+			// aapt resource value: 0x7f010084
+			public const int popupWindowStyle = 2130772100;
 			
-			// aapt resource value: 0x7f0100cf
-			public const int preserveIconSpacing = 2130772175;
+			// aapt resource value: 0x7f0100cc
+			public const int preserveIconSpacing = 2130772172;
 			
-			// aapt resource value: 0x7f010129
-			public const int pressedTranslationZ = 2130772265;
+			// aapt resource value: 0x7f010126
+			public const int pressedTranslationZ = 2130772262;
 			
 			// aapt resource value: 0x7f01002f
 			public const int progressBarPadding = 2130772015;
@@ -2029,62 +2224,62 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f01002d
 			public const int progressBarStyle = 2130772013;
 			
-			// aapt resource value: 0x7f0100e0
-			public const int queryBackground = 2130772192;
+			// aapt resource value: 0x7f0100dd
+			public const int queryBackground = 2130772189;
 			
-			// aapt resource value: 0x7f0100d7
-			public const int queryHint = 2130772183;
+			// aapt resource value: 0x7f0100d4
+			public const int queryHint = 2130772180;
+			
+			// aapt resource value: 0x7f0100b1
+			public const int radioButtonStyle = 2130772145;
+			
+			// aapt resource value: 0x7f0100b2
+			public const int ratingBarStyle = 2130772146;
+			
+			// aapt resource value: 0x7f0100b3
+			public const int ratingBarStyleIndicator = 2130772147;
 			
 			// aapt resource value: 0x7f0100b4
-			public const int radioButtonStyle = 2130772148;
-			
-			// aapt resource value: 0x7f0100b5
-			public const int ratingBarStyle = 2130772149;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int ratingBarStyleIndicator = 2130772150;
-			
-			// aapt resource value: 0x7f0100b7
-			public const int ratingBarStyleSmall = 2130772151;
+			public const int ratingBarStyleSmall = 2130772148;
 			
 			// aapt resource value: 0x7f010002
 			public const int reverseLayout = 2130771970;
 			
-			// aapt resource value: 0x7f010127
-			public const int rippleColor = 2130772263;
+			// aapt resource value: 0x7f010124
+			public const int rippleColor = 2130772260;
 			
-			// aapt resource value: 0x7f010116
-			public const int scrimAnimationDuration = 2130772246;
+			// aapt resource value: 0x7f010113
+			public const int scrimAnimationDuration = 2130772243;
 			
-			// aapt resource value: 0x7f010115
-			public const int scrimVisibleHeightTrigger = 2130772245;
+			// aapt resource value: 0x7f010112
+			public const int scrimVisibleHeightTrigger = 2130772242;
 			
-			// aapt resource value: 0x7f0100dc
-			public const int searchHintIcon = 2130772188;
+			// aapt resource value: 0x7f0100d9
+			public const int searchHintIcon = 2130772185;
 			
-			// aapt resource value: 0x7f0100db
-			public const int searchIcon = 2130772187;
+			// aapt resource value: 0x7f0100d8
+			public const int searchIcon = 2130772184;
 			
-			// aapt resource value: 0x7f01008d
-			public const int searchViewStyle = 2130772109;
+			// aapt resource value: 0x7f01008b
+			public const int searchViewStyle = 2130772107;
 			
-			// aapt resource value: 0x7f0100b8
-			public const int seekBarStyle = 2130772152;
+			// aapt resource value: 0x7f0100b5
+			public const int seekBarStyle = 2130772149;
 			
-			// aapt resource value: 0x7f01007d
-			public const int selectableItemBackground = 2130772093;
+			// aapt resource value: 0x7f01007b
+			public const int selectableItemBackground = 2130772091;
 			
-			// aapt resource value: 0x7f01007e
-			public const int selectableItemBackgroundBorderless = 2130772094;
+			// aapt resource value: 0x7f01007c
+			public const int selectableItemBackgroundBorderless = 2130772092;
 			
-			// aapt resource value: 0x7f0100cb
-			public const int showAsAction = 2130772171;
+			// aapt resource value: 0x7f0100c8
+			public const int showAsAction = 2130772168;
 			
-			// aapt resource value: 0x7f0100c9
-			public const int showDividers = 2130772169;
+			// aapt resource value: 0x7f0100c6
+			public const int showDividers = 2130772166;
 			
-			// aapt resource value: 0x7f0100ec
-			public const int showText = 2130772204;
+			// aapt resource value: 0x7f0100e9
+			public const int showText = 2130772201;
 			
 			// aapt resource value: 0x7f010042
 			public const int showTitle = 2130772034;
@@ -2095,17 +2290,17 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010001
 			public const int spanCount = 2130771969;
 			
-			// aapt resource value: 0x7f0100c1
-			public const int spinBars = 2130772161;
+			// aapt resource value: 0x7f0100be
+			public const int spinBars = 2130772158;
 			
-			// aapt resource value: 0x7f010078
-			public const int spinnerDropDownItemStyle = 2130772088;
+			// aapt resource value: 0x7f010076
+			public const int spinnerDropDownItemStyle = 2130772086;
 			
-			// aapt resource value: 0x7f0100b9
-			public const int spinnerStyle = 2130772153;
+			// aapt resource value: 0x7f0100b6
+			public const int spinnerStyle = 2130772150;
 			
-			// aapt resource value: 0x7f0100eb
-			public const int splitTrack = 2130772203;
+			// aapt resource value: 0x7f0100e8
+			public const int splitTrack = 2130772200;
 			
 			// aapt resource value: 0x7f010043
 			public const int srcCompat = 2130772035;
@@ -2113,254 +2308,245 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f010003
 			public const int stackFromEnd = 2130771971;
 			
-			// aapt resource value: 0x7f0100d2
-			public const int state_above_anchor = 2130772178;
+			// aapt resource value: 0x7f0100cf
+			public const int state_above_anchor = 2130772175;
 			
-			// aapt resource value: 0x7f010104
-			public const int state_collapsed = 2130772228;
+			// aapt resource value: 0x7f010101
+			public const int state_collapsed = 2130772225;
 			
-			// aapt resource value: 0x7f010105
-			public const int state_collapsible = 2130772229;
+			// aapt resource value: 0x7f010102
+			public const int state_collapsible = 2130772226;
 			
-			// aapt resource value: 0x7f01011d
-			public const int statusBarBackground = 2130772253;
+			// aapt resource value: 0x7f01011a
+			public const int statusBarBackground = 2130772250;
 			
-			// aapt resource value: 0x7f010113
-			public const int statusBarScrim = 2130772243;
+			// aapt resource value: 0x7f010110
+			public const int statusBarScrim = 2130772240;
 			
-			// aapt resource value: 0x7f0100d0
-			public const int subMenuArrow = 2130772176;
+			// aapt resource value: 0x7f0100cd
+			public const int subMenuArrow = 2130772173;
 			
-			// aapt resource value: 0x7f0100e1
-			public const int submitBackground = 2130772193;
+			// aapt resource value: 0x7f0100de
+			public const int submitBackground = 2130772190;
 			
 			// aapt resource value: 0x7f010022
 			public const int subtitle = 2130772002;
 			
-			// aapt resource value: 0x7f0100ee
-			public const int subtitleTextAppearance = 2130772206;
+			// aapt resource value: 0x7f0100eb
+			public const int subtitleTextAppearance = 2130772203;
 			
-			// aapt resource value: 0x7f0100fd
-			public const int subtitleTextColor = 2130772221;
+			// aapt resource value: 0x7f0100fa
+			public const int subtitleTextColor = 2130772218;
 			
 			// aapt resource value: 0x7f010024
 			public const int subtitleTextStyle = 2130772004;
 			
-			// aapt resource value: 0x7f0100df
-			public const int suggestionRowLayout = 2130772191;
+			// aapt resource value: 0x7f0100dc
+			public const int suggestionRowLayout = 2130772188;
 			
-			// aapt resource value: 0x7f0100e9
-			public const int switchMinWidth = 2130772201;
-			
-			// aapt resource value: 0x7f0100ea
-			public const int switchPadding = 2130772202;
-			
-			// aapt resource value: 0x7f0100ba
-			public const int switchStyle = 2130772154;
-			
-			// aapt resource value: 0x7f0100e8
-			public const int switchTextAppearance = 2130772200;
-			
-			// aapt resource value: 0x7f01013a
-			public const int tabBackground = 2130772282;
-			
-			// aapt resource value: 0x7f010139
-			public const int tabContentStart = 2130772281;
-			
-			// aapt resource value: 0x7f01013c
-			public const int tabGravity = 2130772284;
-			
-			// aapt resource value: 0x7f010137
-			public const int tabIndicatorColor = 2130772279;
-			
-			// aapt resource value: 0x7f010138
-			public const int tabIndicatorHeight = 2130772280;
-			
-			// aapt resource value: 0x7f01013e
-			public const int tabMaxWidth = 2130772286;
-			
-			// aapt resource value: 0x7f01013d
-			public const int tabMinWidth = 2130772285;
-			
-			// aapt resource value: 0x7f01013b
-			public const int tabMode = 2130772283;
-			
-			// aapt resource value: 0x7f010146
-			public const int tabPadding = 2130772294;
-			
-			// aapt resource value: 0x7f010145
-			public const int tabPaddingBottom = 2130772293;
-			
-			// aapt resource value: 0x7f010144
-			public const int tabPaddingEnd = 2130772292;
-			
-			// aapt resource value: 0x7f010142
-			public const int tabPaddingStart = 2130772290;
-			
-			// aapt resource value: 0x7f010143
-			public const int tabPaddingTop = 2130772291;
-			
-			// aapt resource value: 0x7f010141
-			public const int tabSelectedTextColor = 2130772289;
-			
-			// aapt resource value: 0x7f01013f
-			public const int tabTextAppearance = 2130772287;
-			
-			// aapt resource value: 0x7f010140
-			public const int tabTextColor = 2130772288;
-			
-			// aapt resource value: 0x7f010049
-			public const int textAllCaps = 2130772041;
-			
-			// aapt resource value: 0x7f010070
-			public const int textAppearanceLargePopupMenu = 2130772080;
-			
-			// aapt resource value: 0x7f010095
-			public const int textAppearanceListItem = 2130772117;
-			
-			// aapt resource value: 0x7f010096
-			public const int textAppearanceListItemSecondary = 2130772118;
-			
-			// aapt resource value: 0x7f010097
-			public const int textAppearanceListItemSmall = 2130772119;
-			
-			// aapt resource value: 0x7f010072
-			public const int textAppearancePopupMenuHeader = 2130772082;
-			
-			// aapt resource value: 0x7f01008b
-			public const int textAppearanceSearchResultSubtitle = 2130772107;
-			
-			// aapt resource value: 0x7f01008a
-			public const int textAppearanceSearchResultTitle = 2130772106;
-			
-			// aapt resource value: 0x7f010071
-			public const int textAppearanceSmallPopupMenu = 2130772081;
-			
-			// aapt resource value: 0x7f0100aa
-			public const int textColorAlertDialogListItem = 2130772138;
-			
-			// aapt resource value: 0x7f010126
-			public const int textColorError = 2130772262;
-			
-			// aapt resource value: 0x7f01008c
-			public const int textColorSearchUrl = 2130772108;
-			
-			// aapt resource value: 0x7f010100
-			public const int theme = 2130772224;
-			
-			// aapt resource value: 0x7f0100c7
-			public const int thickness = 2130772167;
+			// aapt resource value: 0x7f0100e6
+			public const int switchMinWidth = 2130772198;
 			
 			// aapt resource value: 0x7f0100e7
-			public const int thumbTextPadding = 2130772199;
+			public const int switchPadding = 2130772199;
 			
-			// aapt resource value: 0x7f0100e2
-			public const int thumbTint = 2130772194;
+			// aapt resource value: 0x7f0100b7
+			public const int switchStyle = 2130772151;
 			
-			// aapt resource value: 0x7f0100e3
-			public const int thumbTintMode = 2130772195;
+			// aapt resource value: 0x7f0100e5
+			public const int switchTextAppearance = 2130772197;
 			
-			// aapt resource value: 0x7f010046
-			public const int tickMark = 2130772038;
+			// aapt resource value: 0x7f010137
+			public const int tabBackground = 2130772279;
+			
+			// aapt resource value: 0x7f010136
+			public const int tabContentStart = 2130772278;
+			
+			// aapt resource value: 0x7f010139
+			public const int tabGravity = 2130772281;
+			
+			// aapt resource value: 0x7f010134
+			public const int tabIndicatorColor = 2130772276;
+			
+			// aapt resource value: 0x7f010135
+			public const int tabIndicatorHeight = 2130772277;
+			
+			// aapt resource value: 0x7f01013b
+			public const int tabMaxWidth = 2130772283;
+			
+			// aapt resource value: 0x7f01013a
+			public const int tabMinWidth = 2130772282;
+			
+			// aapt resource value: 0x7f010138
+			public const int tabMode = 2130772280;
+			
+			// aapt resource value: 0x7f010143
+			public const int tabPadding = 2130772291;
+			
+			// aapt resource value: 0x7f010142
+			public const int tabPaddingBottom = 2130772290;
+			
+			// aapt resource value: 0x7f010141
+			public const int tabPaddingEnd = 2130772289;
+			
+			// aapt resource value: 0x7f01013f
+			public const int tabPaddingStart = 2130772287;
+			
+			// aapt resource value: 0x7f010140
+			public const int tabPaddingTop = 2130772288;
+			
+			// aapt resource value: 0x7f01013e
+			public const int tabSelectedTextColor = 2130772286;
+			
+			// aapt resource value: 0x7f01013c
+			public const int tabTextAppearance = 2130772284;
+			
+			// aapt resource value: 0x7f01013d
+			public const int tabTextColor = 2130772285;
 			
 			// aapt resource value: 0x7f010047
-			public const int tickMarkTint = 2130772039;
+			public const int textAllCaps = 2130772039;
 			
-			// aapt resource value: 0x7f010048
-			public const int tickMarkTintMode = 2130772040;
+			// aapt resource value: 0x7f01006e
+			public const int textAppearanceLargePopupMenu = 2130772078;
+			
+			// aapt resource value: 0x7f010093
+			public const int textAppearanceListItem = 2130772115;
+			
+			// aapt resource value: 0x7f010094
+			public const int textAppearanceListItemSmall = 2130772116;
+			
+			// aapt resource value: 0x7f010070
+			public const int textAppearancePopupMenuHeader = 2130772080;
+			
+			// aapt resource value: 0x7f010089
+			public const int textAppearanceSearchResultSubtitle = 2130772105;
+			
+			// aapt resource value: 0x7f010088
+			public const int textAppearanceSearchResultTitle = 2130772104;
+			
+			// aapt resource value: 0x7f01006f
+			public const int textAppearanceSmallPopupMenu = 2130772079;
+			
+			// aapt resource value: 0x7f0100a7
+			public const int textColorAlertDialogListItem = 2130772135;
+			
+			// aapt resource value: 0x7f010123
+			public const int textColorError = 2130772259;
+			
+			// aapt resource value: 0x7f01008a
+			public const int textColorSearchUrl = 2130772106;
+			
+			// aapt resource value: 0x7f0100fd
+			public const int theme = 2130772221;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int thickness = 2130772164;
+			
+			// aapt resource value: 0x7f0100e4
+			public const int thumbTextPadding = 2130772196;
+			
+			// aapt resource value: 0x7f0100df
+			public const int thumbTint = 2130772191;
+			
+			// aapt resource value: 0x7f0100e0
+			public const int thumbTintMode = 2130772192;
 			
 			// aapt resource value: 0x7f010044
-			public const int tint = 2130772036;
+			public const int tickMark = 2130772036;
 			
 			// aapt resource value: 0x7f010045
-			public const int tintMode = 2130772037;
+			public const int tickMarkTint = 2130772037;
+			
+			// aapt resource value: 0x7f010046
+			public const int tickMarkTintMode = 2130772038;
 			
 			// aapt resource value: 0x7f01001f
 			public const int title = 2130771999;
 			
-			// aapt resource value: 0x7f010119
-			public const int titleEnabled = 2130772249;
+			// aapt resource value: 0x7f010116
+			public const int titleEnabled = 2130772246;
 			
-			// aapt resource value: 0x7f0100ef
-			public const int titleMargin = 2130772207;
-			
-			// aapt resource value: 0x7f0100f3
-			public const int titleMarginBottom = 2130772211;
-			
-			// aapt resource value: 0x7f0100f1
-			public const int titleMarginEnd = 2130772209;
+			// aapt resource value: 0x7f0100ec
+			public const int titleMargin = 2130772204;
 			
 			// aapt resource value: 0x7f0100f0
-			public const int titleMarginStart = 2130772208;
+			public const int titleMarginBottom = 2130772208;
 			
-			// aapt resource value: 0x7f0100f2
-			public const int titleMarginTop = 2130772210;
-			
-			// aapt resource value: 0x7f0100f4
-			public const int titleMargins = 2130772212;
+			// aapt resource value: 0x7f0100ee
+			public const int titleMarginEnd = 2130772206;
 			
 			// aapt resource value: 0x7f0100ed
-			public const int titleTextAppearance = 2130772205;
+			public const int titleMarginStart = 2130772205;
 			
-			// aapt resource value: 0x7f0100fc
-			public const int titleTextColor = 2130772220;
+			// aapt resource value: 0x7f0100ef
+			public const int titleMarginTop = 2130772207;
+			
+			// aapt resource value: 0x7f0100f1
+			public const int titleMargins = 2130772209;
+			
+			// aapt resource value: 0x7f0100ea
+			public const int titleTextAppearance = 2130772202;
+			
+			// aapt resource value: 0x7f0100f9
+			public const int titleTextColor = 2130772217;
 			
 			// aapt resource value: 0x7f010023
 			public const int titleTextStyle = 2130772003;
 			
-			// aapt resource value: 0x7f010114
-			public const int toolbarId = 2130772244;
+			// aapt resource value: 0x7f010111
+			public const int toolbarId = 2130772241;
 			
-			// aapt resource value: 0x7f010084
-			public const int toolbarNavigationButtonStyle = 2130772100;
+			// aapt resource value: 0x7f010082
+			public const int toolbarNavigationButtonStyle = 2130772098;
 			
-			// aapt resource value: 0x7f010083
-			public const int toolbarStyle = 2130772099;
+			// aapt resource value: 0x7f010081
+			public const int toolbarStyle = 2130772097;
 			
-			// aapt resource value: 0x7f0100e4
-			public const int track = 2130772196;
+			// aapt resource value: 0x7f0100e1
+			public const int track = 2130772193;
 			
-			// aapt resource value: 0x7f0100e5
-			public const int trackTint = 2130772197;
+			// aapt resource value: 0x7f0100e2
+			public const int trackTint = 2130772194;
 			
-			// aapt resource value: 0x7f0100e6
-			public const int trackTintMode = 2130772198;
+			// aapt resource value: 0x7f0100e3
+			public const int trackTintMode = 2130772195;
 			
-			// aapt resource value: 0x7f01012b
-			public const int useCompatPadding = 2130772267;
+			// aapt resource value: 0x7f010128
+			public const int useCompatPadding = 2130772264;
 			
-			// aapt resource value: 0x7f0100dd
-			public const int voiceIcon = 2130772189;
+			// aapt resource value: 0x7f0100da
+			public const int voiceIcon = 2130772186;
+			
+			// aapt resource value: 0x7f010048
+			public const int windowActionBar = 2130772040;
 			
 			// aapt resource value: 0x7f01004a
-			public const int windowActionBar = 2130772042;
-			
-			// aapt resource value: 0x7f01004c
-			public const int windowActionBarOverlay = 2130772044;
-			
-			// aapt resource value: 0x7f01004d
-			public const int windowActionModeOverlay = 2130772045;
-			
-			// aapt resource value: 0x7f010051
-			public const int windowFixedHeightMajor = 2130772049;
-			
-			// aapt resource value: 0x7f01004f
-			public const int windowFixedHeightMinor = 2130772047;
-			
-			// aapt resource value: 0x7f01004e
-			public const int windowFixedWidthMajor = 2130772046;
-			
-			// aapt resource value: 0x7f010050
-			public const int windowFixedWidthMinor = 2130772048;
-			
-			// aapt resource value: 0x7f010052
-			public const int windowMinWidthMajor = 2130772050;
-			
-			// aapt resource value: 0x7f010053
-			public const int windowMinWidthMinor = 2130772051;
+			public const int windowActionBarOverlay = 2130772042;
 			
 			// aapt resource value: 0x7f01004b
-			public const int windowNoTitle = 2130772043;
+			public const int windowActionModeOverlay = 2130772043;
+			
+			// aapt resource value: 0x7f01004f
+			public const int windowFixedHeightMajor = 2130772047;
+			
+			// aapt resource value: 0x7f01004d
+			public const int windowFixedHeightMinor = 2130772045;
+			
+			// aapt resource value: 0x7f01004c
+			public const int windowFixedWidthMajor = 2130772044;
+			
+			// aapt resource value: 0x7f01004e
+			public const int windowFixedWidthMinor = 2130772046;
+			
+			// aapt resource value: 0x7f010050
+			public const int windowMinWidthMajor = 2130772048;
+			
+			// aapt resource value: 0x7f010051
+			public const int windowMinWidthMinor = 2130772049;
+			
+			// aapt resource value: 0x7f010049
+			public const int windowNoTitle = 2130772041;
 			
 			static Attribute()
 			{
@@ -4011,8 +4197,8 @@ namespace XamarinFluentDemo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009e
-			public const int action0 = 2131230878;
+			// aapt resource value: 0x7f08009c
+			public const int action0 = 2131230876;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -4035,17 +4221,17 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_container = 2131230875;
+			// aapt resource value: 0x7f080099
+			public const int action_container = 2131230873;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int action_divider = 2131230882;
+			// aapt resource value: 0x7f0800a0
+			public const int action_divider = 2131230880;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action_image = 2131230876;
+			// aapt resource value: 0x7f08009a
+			public const int action_image = 2131230874;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -4062,20 +4248,20 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f08009d
-			public const int action_text = 2131230877;
+			// aapt resource value: 0x7f08009b
+			public const int action_text = 2131230875;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int actions = 2131230891;
+			// aapt resource value: 0x7f0800a9
+			public const int actions = 2131230889;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
 			
-			// aapt resource value: 0x7f08001e
-			public const int add = 2131230750;
+			// aapt resource value: 0x7f080019
+			public const int add = 2131230745;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int agentWebView = 2131230900;
+			// aapt resource value: 0x7f0800b2
+			public const int agentWebView = 2131230898;
 			
 			// aapt resource value: 0x7f080058
 			public const int alertTitle = 2131230808;
@@ -4098,8 +4284,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f08009f
-			public const int cancel_action = 2131230879;
+			// aapt resource value: 0x7f08009d
+			public const int cancel_action = 2131230877;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -4113,8 +4299,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08005b
 			public const int checkbox = 2131230811;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int chronometer = 2131230887;
+			// aapt resource value: 0x7f0800a5
+			public const int chronometer = 2131230885;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -4125,14 +4311,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080024
 			public const int collapseActionView = 2131230756;
 			
-			// aapt resource value: 0x7f080075
-			public const int container = 2131230837;
-			
 			// aapt resource value: 0x7f08004e
 			public const int contentPanel = 2131230798;
-			
-			// aapt resource value: 0x7f080076
-			public const int coordinator = 2131230838;
 			
 			// aapt resource value: 0x7f080055
 			public const int custom = 2131230805;
@@ -4146,20 +4326,20 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080047
 			public const int default_activity_button = 2131230791;
 			
-			// aapt resource value: 0x7f080078
-			public const int design_bottom_sheet = 2131230840;
-			
-			// aapt resource value: 0x7f08007f
-			public const int design_menu_item_action_area = 2131230847;
-			
-			// aapt resource value: 0x7f08007e
-			public const int design_menu_item_action_area_stub = 2131230846;
+			// aapt resource value: 0x7f080076
+			public const int design_bottom_sheet = 2131230838;
 			
 			// aapt resource value: 0x7f08007d
-			public const int design_menu_item_text = 2131230845;
+			public const int design_menu_item_action_area = 2131230845;
 			
 			// aapt resource value: 0x7f08007c
-			public const int design_navigation_view = 2131230844;
+			public const int design_menu_item_action_area_stub = 2131230844;
+			
+			// aapt resource value: 0x7f08007b
+			public const int design_menu_item_text = 2131230843;
+			
+			// aapt resource value: 0x7f08007a
+			public const int design_navigation_view = 2131230842;
 			
 			// aapt resource value: 0x7f080012
 			public const int disableHome = 2131230738;
@@ -4170,8 +4350,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int end_padder = 2131230897;
+			// aapt resource value: 0x7f0800af
+			public const int end_padder = 2131230895;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -4209,8 +4389,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int icon_group = 2131230892;
+			// aapt resource value: 0x7f0800aa
+			public const int icon_group = 2131230890;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -4218,8 +4398,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080046
 			public const int image = 2131230790;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int info = 2131230888;
+			// aapt resource value: 0x7f0800a6
+			public const int info = 2131230886;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -4230,11 +4410,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int line1 = 2131230893;
+			// aapt resource value: 0x7f0800ab
+			public const int line1 = 2131230891;
 			
-			// aapt resource value: 0x7f0800af
-			public const int line3 = 2131230895;
+			// aapt resource value: 0x7f0800ad
+			public const int line3 = 2131230893;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
@@ -4242,11 +4422,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int masked = 2131230902;
+			// aapt resource value: 0x7f0800b4
+			public const int masked = 2131230900;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int media_actions = 2131230881;
+			// aapt resource value: 0x7f08009f
+			public const int media_actions = 2131230879;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -4254,86 +4434,86 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08003e
 			public const int mini = 2131230782;
 			
-			// aapt resource value: 0x7f08008d
-			public const int mr_art = 2131230861;
+			// aapt resource value: 0x7f08008b
+			public const int mr_art = 2131230859;
 			
-			// aapt resource value: 0x7f080082
-			public const int mr_chooser_list = 2131230850;
-			
-			// aapt resource value: 0x7f080085
-			public const int mr_chooser_route_desc = 2131230853;
+			// aapt resource value: 0x7f080080
+			public const int mr_chooser_list = 2131230848;
 			
 			// aapt resource value: 0x7f080083
-			public const int mr_chooser_route_icon = 2131230851;
-			
-			// aapt resource value: 0x7f080084
-			public const int mr_chooser_route_name = 2131230852;
+			public const int mr_chooser_route_desc = 2131230851;
 			
 			// aapt resource value: 0x7f080081
-			public const int mr_chooser_title = 2131230849;
+			public const int mr_chooser_route_icon = 2131230849;
 			
-			// aapt resource value: 0x7f08008a
-			public const int mr_close = 2131230858;
+			// aapt resource value: 0x7f080082
+			public const int mr_chooser_route_name = 2131230850;
 			
-			// aapt resource value: 0x7f080090
-			public const int mr_control_divider = 2131230864;
-			
-			// aapt resource value: 0x7f080096
-			public const int mr_control_playback_ctrl = 2131230870;
-			
-			// aapt resource value: 0x7f080099
-			public const int mr_control_subtitle = 2131230873;
-			
-			// aapt resource value: 0x7f080098
-			public const int mr_control_title = 2131230872;
-			
-			// aapt resource value: 0x7f080097
-			public const int mr_control_title_container = 2131230871;
-			
-			// aapt resource value: 0x7f08008b
-			public const int mr_custom_control = 2131230859;
-			
-			// aapt resource value: 0x7f08008c
-			public const int mr_default_control = 2131230860;
-			
-			// aapt resource value: 0x7f080087
-			public const int mr_dialog_area = 2131230855;
-			
-			// aapt resource value: 0x7f080086
-			public const int mr_expandable_area = 2131230854;
-			
-			// aapt resource value: 0x7f08009a
-			public const int mr_group_expand_collapse = 2131230874;
-			
-			// aapt resource value: 0x7f08008e
-			public const int mr_media_main_control = 2131230862;
-			
-			// aapt resource value: 0x7f080089
-			public const int mr_name = 2131230857;
-			
-			// aapt resource value: 0x7f08008f
-			public const int mr_playback_control = 2131230863;
+			// aapt resource value: 0x7f08007f
+			public const int mr_chooser_title = 2131230847;
 			
 			// aapt resource value: 0x7f080088
-			public const int mr_title_bar = 2131230856;
+			public const int mr_close = 2131230856;
 			
-			// aapt resource value: 0x7f080091
-			public const int mr_volume_control = 2131230865;
-			
-			// aapt resource value: 0x7f080092
-			public const int mr_volume_group_list = 2131230866;
+			// aapt resource value: 0x7f08008e
+			public const int mr_control_divider = 2131230862;
 			
 			// aapt resource value: 0x7f080094
-			public const int mr_volume_item_icon = 2131230868;
+			public const int mr_control_playback_ctrl = 2131230868;
+			
+			// aapt resource value: 0x7f080097
+			public const int mr_control_subtitle = 2131230871;
+			
+			// aapt resource value: 0x7f080096
+			public const int mr_control_title = 2131230870;
 			
 			// aapt resource value: 0x7f080095
-			public const int mr_volume_slider = 2131230869;
+			public const int mr_control_title_container = 2131230869;
 			
-			// aapt resource value: 0x7f080019
-			public const int multiply = 2131230745;
+			// aapt resource value: 0x7f080089
+			public const int mr_custom_control = 2131230857;
 			
-			// aapt resource value: 0x7f08007b
-			public const int navigation_header_container = 2131230843;
+			// aapt resource value: 0x7f08008a
+			public const int mr_default_control = 2131230858;
+			
+			// aapt resource value: 0x7f080085
+			public const int mr_dialog_area = 2131230853;
+			
+			// aapt resource value: 0x7f080084
+			public const int mr_expandable_area = 2131230852;
+			
+			// aapt resource value: 0x7f080098
+			public const int mr_group_expand_collapse = 2131230872;
+			
+			// aapt resource value: 0x7f08008c
+			public const int mr_media_main_control = 2131230860;
+			
+			// aapt resource value: 0x7f080087
+			public const int mr_name = 2131230855;
+			
+			// aapt resource value: 0x7f08008d
+			public const int mr_playback_control = 2131230861;
+			
+			// aapt resource value: 0x7f080086
+			public const int mr_title_bar = 2131230854;
+			
+			// aapt resource value: 0x7f08008f
+			public const int mr_volume_control = 2131230863;
+			
+			// aapt resource value: 0x7f080090
+			public const int mr_volume_group_list = 2131230864;
+			
+			// aapt resource value: 0x7f080092
+			public const int mr_volume_item_icon = 2131230866;
+			
+			// aapt resource value: 0x7f080093
+			public const int mr_volume_slider = 2131230867;
+			
+			// aapt resource value: 0x7f08001a
+			public const int multiply = 2131230746;
+			
+			// aapt resource value: 0x7f080079
+			public const int navigation_header_container = 2131230841;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -4344,14 +4524,14 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int notification_background = 2131230890;
+			// aapt resource value: 0x7f0800a8
+			public const int notification_background = 2131230888;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int notification_main_column = 2131230884;
+			// aapt resource value: 0x7f0800a2
+			public const int notification_main_column = 2131230882;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_main_column_container = 2131230883;
+			// aapt resource value: 0x7f0800a1
+			public const int notification_main_column_container = 2131230881;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -4374,14 +4554,14 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int right_icon = 2131230889;
+			// aapt resource value: 0x7f0800a7
+			public const int right_icon = 2131230887;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int right_side = 2131230885;
+			// aapt resource value: 0x7f0800a3
+			public const int right_side = 2131230883;
 			
-			// aapt resource value: 0x7f08001a
-			public const int screen = 2131230746;
+			// aapt resource value: 0x7f08001b
+			public const int screen = 2131230747;
 			
 			// aapt resource value: 0x7f08002d
 			public const int scroll = 2131230765;
@@ -4443,17 +4623,17 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int sliding_tabs = 2131230898;
+			// aapt resource value: 0x7f0800b0
+			public const int sliding_tabs = 2131230896;
 			
 			// aapt resource value: 0x7f080073
 			public const int smallLabel = 2131230835;
 			
-			// aapt resource value: 0x7f08007a
-			public const int snackbar_action = 2131230842;
+			// aapt resource value: 0x7f080078
+			public const int snackbar_action = 2131230840;
 			
-			// aapt resource value: 0x7f080079
-			public const int snackbar_text = 2131230841;
+			// aapt resource value: 0x7f080077
+			public const int snackbar_text = 2131230839;
 			
 			// aapt resource value: 0x7f08002e
 			public const int snap = 2131230766;
@@ -4464,20 +4644,20 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
-			// aapt resource value: 0x7f08001b
-			public const int src_atop = 2131230747;
-			
 			// aapt resource value: 0x7f08001c
-			public const int src_in = 2131230748;
+			public const int src_atop = 2131230748;
 			
 			// aapt resource value: 0x7f08001d
-			public const int src_over = 2131230749;
+			public const int src_in = 2131230749;
+			
+			// aapt resource value: 0x7f08001e
+			public const int src_over = 2131230750;
 			
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int status_bar_latest_event_content = 2131230880;
+			// aapt resource value: 0x7f08009e
+			public const int status_bar_latest_event_content = 2131230878;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -4488,11 +4668,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int text = 2131230896;
-			
 			// aapt resource value: 0x7f0800ae
-			public const int text2 = 2131230894;
+			public const int text = 2131230894;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int text2 = 2131230892;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -4500,8 +4680,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080051
 			public const int textSpacerNoTitle = 2131230801;
 			
-			// aapt resource value: 0x7f080080
-			public const int text_input_password_toggle = 2131230848;
+			// aapt resource value: 0x7f08007e
+			public const int text_input_password_toggle = 2131230846;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -4509,8 +4689,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int time = 2131230886;
+			// aapt resource value: 0x7f0800a4
+			public const int time = 2131230884;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -4521,8 +4701,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080057
 			public const int title_template = 2131230807;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int toolbar = 2131230899;
+			// aapt resource value: 0x7f0800b1
+			public const int toolbar = 2131230897;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
@@ -4530,8 +4710,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f080056
 			public const int topPanel = 2131230806;
 			
-			// aapt resource value: 0x7f080077
-			public const int touch_outside = 2131230839;
+			// aapt resource value: 0x7f080075
+			public const int touch_outside = 2131230837;
 			
 			// aapt resource value: 0x7f08000a
 			public const int transition_current_scene = 2131230730;
@@ -4548,11 +4728,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int visible = 2131230901;
+			// aapt resource value: 0x7f0800b3
+			public const int visible = 2131230899;
 			
-			// aapt resource value: 0x7f080093
-			public const int volume_item_container = 2131230867;
+			// aapt resource value: 0x7f080091
+			public const int volume_item_container = 2131230865;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -6293,7 +6473,7 @@ namespace XamarinFluentDemo.Droid
 					2130772023,
 					2130772024,
 					2130772025,
-					2130772089};
+					2130772087};
 			
 			// aapt resource value: 10
 			public const int ActionBar_background = 10;
@@ -6465,7 +6645,7 @@ namespace XamarinFluentDemo.Droid
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					2130772024,
-					2130772227};
+					2130772224};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_android_background = 0;
@@ -6477,8 +6657,8 @@ namespace XamarinFluentDemo.Droid
 			public const int AppBarLayout_expanded = 2;
 			
 			public static int[] AppBarLayoutStates = new int[] {
-					2130772228,
-					2130772229};
+					2130772225,
+					2130772226};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -6487,8 +6667,8 @@ namespace XamarinFluentDemo.Droid
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130772230,
-					2130772231};
+					2130772227,
+					2130772228};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -6498,9 +6678,7 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130772035,
-					2130772036,
-					2130772037};
+					2130772035};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -6508,17 +6686,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 1
 			public const int AppCompatImageView_srcCompat = 1;
 			
-			// aapt resource value: 2
-			public const int AppCompatImageView_tint = 2;
-			
-			// aapt resource value: 3
-			public const int AppCompatImageView_tintMode = 3;
-			
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130772038,
-					2130772039,
-					2130772040};
+					2130772036,
+					2130772037,
+					2130772038};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -6564,7 +6736,7 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130772041};
+					2130772039};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -6575,6 +6747,8 @@ namespace XamarinFluentDemo.Droid
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
+					2130772040,
+					2130772041,
 					2130772042,
 					2130772043,
 					2130772044,
@@ -6685,10 +6859,7 @@ namespace XamarinFluentDemo.Droid
 					2130772149,
 					2130772150,
 					2130772151,
-					2130772152,
-					2130772153,
-					2130772154,
-					2130772155};
+					2130772152};
 			
 			// aapt resource value: 23
 			public const int AppCompatTheme_actionBarDivider = 23;
@@ -6783,17 +6954,17 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 58
 			public const int AppCompatTheme_activityChooserViewStyle = 58;
 			
+			// aapt resource value: 94
+			public const int AppCompatTheme_alertDialogButtonGroupStyle = 94;
+			
 			// aapt resource value: 95
-			public const int AppCompatTheme_alertDialogButtonGroupStyle = 95;
+			public const int AppCompatTheme_alertDialogCenterButtons = 95;
+			
+			// aapt resource value: 93
+			public const int AppCompatTheme_alertDialogStyle = 93;
 			
 			// aapt resource value: 96
-			public const int AppCompatTheme_alertDialogCenterButtons = 96;
-			
-			// aapt resource value: 94
-			public const int AppCompatTheme_alertDialogStyle = 94;
-			
-			// aapt resource value: 97
-			public const int AppCompatTheme_alertDialogTheme = 97;
+			public const int AppCompatTheme_alertDialogTheme = 96;
 			
 			// aapt resource value: 1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
@@ -6801,8 +6972,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 0
 			public const int AppCompatTheme_android_windowIsFloating = 0;
 			
-			// aapt resource value: 102
-			public const int AppCompatTheme_autoCompleteTextViewStyle = 102;
+			// aapt resource value: 101
+			public const int AppCompatTheme_autoCompleteTextViewStyle = 101;
 			
 			// aapt resource value: 55
 			public const int AppCompatTheme_borderlessButtonStyle = 55;
@@ -6810,59 +6981,59 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 52
 			public const int AppCompatTheme_buttonBarButtonStyle = 52;
 			
-			// aapt resource value: 100
-			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
-			
-			// aapt resource value: 101
-			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
-			
 			// aapt resource value: 99
-			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
+			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
+			
+			// aapt resource value: 100
+			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
+			
+			// aapt resource value: 98
+			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
 			
 			// aapt resource value: 51
 			public const int AppCompatTheme_buttonBarStyle = 51;
 			
+			// aapt resource value: 102
+			public const int AppCompatTheme_buttonStyle = 102;
+			
 			// aapt resource value: 103
-			public const int AppCompatTheme_buttonStyle = 103;
+			public const int AppCompatTheme_buttonStyleSmall = 103;
 			
 			// aapt resource value: 104
-			public const int AppCompatTheme_buttonStyleSmall = 104;
+			public const int AppCompatTheme_checkboxStyle = 104;
 			
 			// aapt resource value: 105
-			public const int AppCompatTheme_checkboxStyle = 105;
-			
-			// aapt resource value: 106
-			public const int AppCompatTheme_checkedTextViewStyle = 106;
-			
-			// aapt resource value: 86
-			public const int AppCompatTheme_colorAccent = 86;
-			
-			// aapt resource value: 93
-			public const int AppCompatTheme_colorBackgroundFloating = 93;
-			
-			// aapt resource value: 90
-			public const int AppCompatTheme_colorButtonNormal = 90;
-			
-			// aapt resource value: 88
-			public const int AppCompatTheme_colorControlActivated = 88;
-			
-			// aapt resource value: 89
-			public const int AppCompatTheme_colorControlHighlight = 89;
-			
-			// aapt resource value: 87
-			public const int AppCompatTheme_colorControlNormal = 87;
-			
-			// aapt resource value: 84
-			public const int AppCompatTheme_colorPrimary = 84;
+			public const int AppCompatTheme_checkedTextViewStyle = 105;
 			
 			// aapt resource value: 85
-			public const int AppCompatTheme_colorPrimaryDark = 85;
-			
-			// aapt resource value: 91
-			public const int AppCompatTheme_colorSwitchThumbNormal = 91;
+			public const int AppCompatTheme_colorAccent = 85;
 			
 			// aapt resource value: 92
-			public const int AppCompatTheme_controlBackground = 92;
+			public const int AppCompatTheme_colorBackgroundFloating = 92;
+			
+			// aapt resource value: 89
+			public const int AppCompatTheme_colorButtonNormal = 89;
+			
+			// aapt resource value: 87
+			public const int AppCompatTheme_colorControlActivated = 87;
+			
+			// aapt resource value: 88
+			public const int AppCompatTheme_colorControlHighlight = 88;
+			
+			// aapt resource value: 86
+			public const int AppCompatTheme_colorControlNormal = 86;
+			
+			// aapt resource value: 83
+			public const int AppCompatTheme_colorPrimary = 83;
+			
+			// aapt resource value: 84
+			public const int AppCompatTheme_colorPrimaryDark = 84;
+			
+			// aapt resource value: 90
+			public const int AppCompatTheme_colorSwitchThumbNormal = 90;
+			
+			// aapt resource value: 91
+			public const int AppCompatTheme_controlBackground = 91;
 			
 			// aapt resource value: 44
 			public const int AppCompatTheme_dialogPreferredPadding = 44;
@@ -6888,8 +7059,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 63
 			public const int AppCompatTheme_editTextColor = 63;
 			
-			// aapt resource value: 107
-			public const int AppCompatTheme_editTextStyle = 107;
+			// aapt resource value: 106
+			public const int AppCompatTheme_editTextStyle = 106;
 			
 			// aapt resource value: 49
 			public const int AppCompatTheme_homeAsUpIndicator = 49;
@@ -6897,14 +7068,14 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 65
 			public const int AppCompatTheme_imageButtonStyle = 65;
 			
-			// aapt resource value: 83
-			public const int AppCompatTheme_listChoiceBackgroundIndicator = 83;
+			// aapt resource value: 82
+			public const int AppCompatTheme_listChoiceBackgroundIndicator = 82;
 			
 			// aapt resource value: 45
 			public const int AppCompatTheme_listDividerAlertDialog = 45;
 			
-			// aapt resource value: 115
-			public const int AppCompatTheme_listMenuViewStyle = 115;
+			// aapt resource value: 114
+			public const int AppCompatTheme_listMenuViewStyle = 114;
 			
 			// aapt resource value: 76
 			public const int AppCompatTheme_listPopupWindowStyle = 76;
@@ -6924,14 +7095,14 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 74
 			public const int AppCompatTheme_listPreferredItemPaddingRight = 74;
 			
-			// aapt resource value: 80
-			public const int AppCompatTheme_panelBackground = 80;
-			
-			// aapt resource value: 82
-			public const int AppCompatTheme_panelMenuListTheme = 82;
+			// aapt resource value: 79
+			public const int AppCompatTheme_panelBackground = 79;
 			
 			// aapt resource value: 81
-			public const int AppCompatTheme_panelMenuListWidth = 81;
+			public const int AppCompatTheme_panelMenuListTheme = 81;
+			
+			// aapt resource value: 80
+			public const int AppCompatTheme_panelMenuListWidth = 80;
 			
 			// aapt resource value: 61
 			public const int AppCompatTheme_popupMenuStyle = 61;
@@ -6939,23 +7110,23 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 62
 			public const int AppCompatTheme_popupWindowStyle = 62;
 			
+			// aapt resource value: 107
+			public const int AppCompatTheme_radioButtonStyle = 107;
+			
 			// aapt resource value: 108
-			public const int AppCompatTheme_radioButtonStyle = 108;
+			public const int AppCompatTheme_ratingBarStyle = 108;
 			
 			// aapt resource value: 109
-			public const int AppCompatTheme_ratingBarStyle = 109;
+			public const int AppCompatTheme_ratingBarStyleIndicator = 109;
 			
 			// aapt resource value: 110
-			public const int AppCompatTheme_ratingBarStyleIndicator = 110;
-			
-			// aapt resource value: 111
-			public const int AppCompatTheme_ratingBarStyleSmall = 111;
+			public const int AppCompatTheme_ratingBarStyleSmall = 110;
 			
 			// aapt resource value: 69
 			public const int AppCompatTheme_searchViewStyle = 69;
 			
-			// aapt resource value: 112
-			public const int AppCompatTheme_seekBarStyle = 112;
+			// aapt resource value: 111
+			public const int AppCompatTheme_seekBarStyle = 111;
 			
 			// aapt resource value: 53
 			public const int AppCompatTheme_selectableItemBackground = 53;
@@ -6966,11 +7137,11 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 48
 			public const int AppCompatTheme_spinnerDropDownItemStyle = 48;
 			
-			// aapt resource value: 113
-			public const int AppCompatTheme_spinnerStyle = 113;
+			// aapt resource value: 112
+			public const int AppCompatTheme_spinnerStyle = 112;
 			
-			// aapt resource value: 114
-			public const int AppCompatTheme_switchStyle = 114;
+			// aapt resource value: 113
+			public const int AppCompatTheme_switchStyle = 113;
 			
 			// aapt resource value: 40
 			public const int AppCompatTheme_textAppearanceLargePopupMenu = 40;
@@ -6979,10 +7150,7 @@ namespace XamarinFluentDemo.Droid
 			public const int AppCompatTheme_textAppearanceListItem = 77;
 			
 			// aapt resource value: 78
-			public const int AppCompatTheme_textAppearanceListItemSecondary = 78;
-			
-			// aapt resource value: 79
-			public const int AppCompatTheme_textAppearanceListItemSmall = 79;
+			public const int AppCompatTheme_textAppearanceListItemSmall = 78;
 			
 			// aapt resource value: 42
 			public const int AppCompatTheme_textAppearancePopupMenuHeader = 42;
@@ -6996,8 +7164,8 @@ namespace XamarinFluentDemo.Droid
 			// aapt resource value: 41
 			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
 			
-			// aapt resource value: 98
-			public const int AppCompatTheme_textColorAlertDialogListItem = 98;
+			// aapt resource value: 97
+			public const int AppCompatTheme_textColorAlertDialogListItem = 97;
 			
 			// aapt resource value: 68
 			public const int AppCompatTheme_textColorSearchUrl = 68;
@@ -7040,10 +7208,10 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] BottomNavigationView = new int[] {
 					2130772024,
-					2130772270,
-					2130772271,
-					2130772272,
-					2130772273};
+					2130772267,
+					2130772268,
+					2130772269,
+					2130772270};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -7061,9 +7229,9 @@ namespace XamarinFluentDemo.Droid
 			public const int BottomNavigationView_menu = 1;
 			
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130772232,
-					2130772233,
-					2130772234};
+					2130772229,
+					2130772230,
+					2130772231};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -7075,7 +7243,7 @@ namespace XamarinFluentDemo.Droid
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
 			
 			public static int[] ButtonBarLayout = new int[] {
-					2130772156};
+					2130772153};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
@@ -7136,6 +7304,9 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130771999,
+					2130772232,
+					2130772233,
+					2130772234,
 					2130772235,
 					2130772236,
 					2130772237,
@@ -7147,10 +7318,7 @@ namespace XamarinFluentDemo.Droid
 					2130772243,
 					2130772244,
 					2130772245,
-					2130772246,
-					2130772247,
-					2130772248,
-					2130772249};
+					2130772246};
 			
 			// aapt resource value: 13
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 13;
@@ -7201,8 +7369,8 @@ namespace XamarinFluentDemo.Droid
 			public const int CollapsingToolbarLayout_toolbarId = 10;
 			
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130772250,
-					2130772251};
+					2130772247,
+					2130772248};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -7213,7 +7381,7 @@ namespace XamarinFluentDemo.Droid
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130772157};
+					2130772154};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -7226,8 +7394,8 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130772158,
-					2130772159};
+					2130772155,
+					2130772156};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -7239,8 +7407,8 @@ namespace XamarinFluentDemo.Droid
 			public const int CompoundButton_buttonTintMode = 2;
 			
 			public static int[] CoordinatorLayout = new int[] {
-					2130772252,
-					2130772253};
+					2130772249,
+					2130772250};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -7250,12 +7418,12 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
+					2130772251,
+					2130772252,
+					2130772253,
 					2130772254,
 					2130772255,
-					2130772256,
-					2130772257,
-					2130772258,
-					2130772259};
+					2130772256};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -7279,9 +7447,9 @@ namespace XamarinFluentDemo.Droid
 			public const int CoordinatorLayout_Layout_layout_keyline = 3;
 			
 			public static int[] DesignTheme = new int[] {
-					2130772260,
-					2130772261,
-					2130772262};
+					2130772257,
+					2130772258,
+					2130772259};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -7293,14 +7461,14 @@ namespace XamarinFluentDemo.Droid
 			public const int DesignTheme_textColorError = 2;
 			
 			public static int[] DrawerArrowToggle = new int[] {
+					2130772157,
+					2130772158,
+					2130772159,
 					2130772160,
 					2130772161,
 					2130772162,
 					2130772163,
-					2130772164,
-					2130772165,
-					2130772166,
-					2130772167};
+					2130772164};
 			
 			// aapt resource value: 4
 			public const int DrawerArrowToggle_arrowHeadLength = 4;
@@ -7328,13 +7496,13 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] FloatingActionButton = new int[] {
 					2130772024,
-					2130772225,
-					2130772226,
+					2130772222,
+					2130772223,
+					2130772260,
+					2130772261,
+					2130772262,
 					2130772263,
-					2130772264,
-					2130772265,
-					2130772266,
-					2130772267};
+					2130772264};
 			
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTint = 1;
@@ -7361,7 +7529,7 @@ namespace XamarinFluentDemo.Droid
 			public const int FloatingActionButton_useCompatPadding = 7;
 			
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130772268};
+					2130772265};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -7369,7 +7537,7 @@ namespace XamarinFluentDemo.Droid
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130772269};
+					2130772266};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -7387,9 +7555,9 @@ namespace XamarinFluentDemo.Droid
 					16843047,
 					16843048,
 					2130772007,
-					2130772168,
-					2130772169,
-					2130772170};
+					2130772165,
+					2130772166,
+					2130772167};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -7450,7 +7618,7 @@ namespace XamarinFluentDemo.Droid
 					16843071,
 					16843072,
 					2130771984,
-					2130772158};
+					2130772155};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -7504,10 +7672,10 @@ namespace XamarinFluentDemo.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130772171,
-					2130772172,
-					2130772173,
-					2130772174};
+					2130772168,
+					2130772169,
+					2130772170,
+					2130772171};
 			
 			// aapt resource value: 14
 			public const int MenuItem_actionLayout = 14;
@@ -7568,8 +7736,8 @@ namespace XamarinFluentDemo.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130772175,
-					2130772176};
+					2130772172,
+					2130772173};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -7603,12 +7771,12 @@ namespace XamarinFluentDemo.Droid
 					16842973,
 					16843039,
 					2130772024,
+					2130772267,
+					2130772268,
+					2130772269,
 					2130772270,
 					2130772271,
-					2130772272,
-					2130772273,
-					2130772274,
-					2130772275};
+					2130772272};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -7643,7 +7811,7 @@ namespace XamarinFluentDemo.Droid
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130772177};
+					2130772174};
 			
 			// aapt resource value: 1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
@@ -7655,14 +7823,14 @@ namespace XamarinFluentDemo.Droid
 			public const int PopupWindow_overlapAnchor = 2;
 			
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130772178};
+					2130772175};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
 			public static int[] RecycleListView = new int[] {
-					2130772179,
-					2130772180};
+					2130772176,
+					2130772177};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -7697,13 +7865,13 @@ namespace XamarinFluentDemo.Droid
 			public const int RecyclerView_stackFromEnd = 5;
 			
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130772276};
+					2130772273};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130772277};
+					2130772274};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
@@ -7713,6 +7881,9 @@ namespace XamarinFluentDemo.Droid
 					16843039,
 					16843296,
 					16843364,
+					2130772178,
+					2130772179,
+					2130772180,
 					2130772181,
 					2130772182,
 					2130772183,
@@ -7722,10 +7893,7 @@ namespace XamarinFluentDemo.Droid
 					2130772187,
 					2130772188,
 					2130772189,
-					2130772190,
-					2130772191,
-					2130772192,
-					2130772193};
+					2130772190};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -7781,7 +7949,7 @@ namespace XamarinFluentDemo.Droid
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130772024,
-					2130772278};
+					2130772275};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -7818,6 +7986,9 @@ namespace XamarinFluentDemo.Droid
 					16843044,
 					16843045,
 					16843074,
+					2130772191,
+					2130772192,
+					2130772193,
 					2130772194,
 					2130772195,
 					2130772196,
@@ -7825,10 +7996,7 @@ namespace XamarinFluentDemo.Droid
 					2130772198,
 					2130772199,
 					2130772200,
-					2130772201,
-					2130772202,
-					2130772203,
-					2130772204};
+					2130772201};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -7887,6 +8055,9 @@ namespace XamarinFluentDemo.Droid
 			public const int TabItem_android_text = 2;
 			
 			public static int[] TabLayout = new int[] {
+					2130772276,
+					2130772277,
+					2130772278,
 					2130772279,
 					2130772280,
 					2130772281,
@@ -7899,10 +8070,7 @@ namespace XamarinFluentDemo.Droid
 					2130772288,
 					2130772289,
 					2130772290,
-					2130772291,
-					2130772292,
-					2130772293,
-					2130772294};
+					2130772291};
 			
 			// aapt resource value: 3
 			public const int TabLayout_tabBackground = 3;
@@ -7962,7 +8130,7 @@ namespace XamarinFluentDemo.Droid
 					16843106,
 					16843107,
 					16843108,
-					2130772041};
+					2130772039};
 			
 			// aapt resource value: 5
 			public const int TextAppearance_android_shadowColor = 5;
@@ -7997,6 +8165,9 @@ namespace XamarinFluentDemo.Droid
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
+					2130772292,
+					2130772293,
+					2130772294,
 					2130772295,
 					2130772296,
 					2130772297,
@@ -8007,10 +8178,7 @@ namespace XamarinFluentDemo.Droid
 					2130772302,
 					2130772303,
 					2130772304,
-					2130772305,
-					2130772306,
-					2130772307,
-					2130772308};
+					2130772305};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -8073,6 +8241,9 @@ namespace XamarinFluentDemo.Droid
 					2130772022,
 					2130772023,
 					2130772025,
+					2130772202,
+					2130772203,
+					2130772204,
 					2130772205,
 					2130772206,
 					2130772207,
@@ -8086,10 +8257,7 @@ namespace XamarinFluentDemo.Droid
 					2130772215,
 					2130772216,
 					2130772217,
-					2130772218,
-					2130772219,
-					2130772220,
-					2130772221};
+					2130772218};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -8181,9 +8349,9 @@ namespace XamarinFluentDemo.Droid
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130772222,
-					2130772223,
-					2130772224};
+					2130772219,
+					2130772220,
+					2130772221};
 			
 			// aapt resource value: 1
 			public const int View_android_focusable = 1;
@@ -8202,8 +8370,8 @@ namespace XamarinFluentDemo.Droid
 			
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130772225,
-					2130772226};
+					2130772222,
+					2130772223};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
