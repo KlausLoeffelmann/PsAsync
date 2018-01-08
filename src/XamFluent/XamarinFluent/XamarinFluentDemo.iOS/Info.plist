@@ -20,21 +20,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-
-	 <key>CFBundleURLTypes</key>
-	 <array>
-		 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
 			<string>com.activedevelop.XamarinFluentDemo</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-			<string>msald39fb30f-3e0c-4cc8-bee1-53e5fe4606d9</string>
+				<string>msald39fb30f-3e0c-4cc8-bee1-53e5fe4606d9</string>
 			</array>
 		</dict>
-	</array> 
-
+	</array>
 	<key>MinimumOSVersion</key>
 	<string>10.3</string>
 	<key>CFBundleDisplayName</key>
