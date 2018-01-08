@@ -18,6 +18,8 @@ namespace XamarinFluentDemo
 
         public static UIParent UiParent = null;
 
+        public static bool IsDesignMode = true;
+
 		public App ()
 		{
 			InitializeComponent();
@@ -29,7 +31,8 @@ namespace XamarinFluentDemo
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
+            //Only if the App has been started, IsDesignMode can be false, otherwise it's true.
+            IsDesignMode = false;
 		}
 
 		protected override void OnSleep ()

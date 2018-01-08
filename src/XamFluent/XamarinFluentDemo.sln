@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFluentDemo.iOS", "Xa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFluentDemo.UWP", "XamarinFluent\XamarinFluentDemo.UWP\XamarinFluentDemo.UWP.csproj", "{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFluentDemo", "XamarinFluent\XamarinFluentDemo\XamarinFluentDemo.csproj", "{6C7707CE-BE57-4731-B397-C522BF0363F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinFluentDemo", "XamarinFluent\XamarinFluentDemo\XamarinFluentDemo.csproj", "{6C7707CE-BE57-4731-B397-C522BF0363F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -186,6 +186,8 @@ Global
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|ARM.Build.0 = Debug|ARM
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|ARM.Deploy.0 = Debug|ARM
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|iPhone.ActiveCfg = Debug|x86
+		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|iPhone.Build.0 = Debug|x86
+		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|iPhone.Deploy.0 = Debug|x86
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|x64.ActiveCfg = Debug|x64
 		{A90094F6-54BC-4AC2-A911-97EDC2C5F4B0}.Debug|x64.Build.0 = Debug|x64

@@ -4,8 +4,23 @@
              xmlns:local="clr-namespace:XamarinFluentDemo"
              x:Class="XamarinFluentDemo.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <Label Text="Welcome to Xamarin.Forms!"
+               FontSize="Large"
+               HorizontalOptions="Center"/>
+        <Label x:Name="txtLoginState" Text="You are not logged in."
+               FontSize="Medium"
+               Margin="0,20,0,0"
+               HorizontalOptions="Center"/>
+        <Button x:Name="btnLogout" Text=" Logout " 
+                BorderWidth="2"
+                BorderColor="Gray"
+                FontSize="Large"
+                IsEnabled="False"
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                Clicked="Logout_Clicked"/>
+    </StackLayout>
 
 </ContentPage>
