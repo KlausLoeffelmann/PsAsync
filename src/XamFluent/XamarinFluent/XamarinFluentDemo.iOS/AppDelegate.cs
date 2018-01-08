@@ -26,7 +26,7 @@ namespace XamarinFluentDemo.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-            App.PCA.RedirectUri = "msald39fb30f-3e0c-4cc8-bee1-53e5fe4606d9://auth";
+            App.PCA.RedirectUri = "msal59712ae4-2173-44f3-aff9-b01accc59a72://auth";
             return base.FinishedLaunching(app, options);
         }
 
