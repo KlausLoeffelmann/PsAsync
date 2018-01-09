@@ -1,14 +1,17 @@
-﻿using Microsoft.Identity.Client;
+﻿using Microsoft.Graph;
+using Microsoft.Identity.Client;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using XamarinConnect;
 
 namespace XamarinFluentDemo
 {
@@ -28,6 +31,11 @@ namespace XamarinFluentDemo
             SignOut();
             txtLoginState.Text = "You're logout. Please, restart the app.";
             btnLogout.IsEnabled = false;
+        }
+
+        private async void Test_Clicked(object sender, EventArgs e)
+        {
+            await TestOneDriveThings();
         }
 
         protected async override void OnAppearing()
@@ -76,6 +84,7 @@ namespace XamarinFluentDemo
 
                                 myStateMachineCounter = 1;
                                 myAr = await App.PCA.AcquireTokenAsync(App.Scopes, App.UiParent);
+                                
                                 Debug.Print("Manual login succeeded.");
 
                                 mySyncContext.Post((state) =>
@@ -99,6 +108,28 @@ namespace XamarinFluentDemo
             }
         }
 
+        // Uploads the specified file to the user's root OneDrive directory.
+        public async Task TestOneDriveThings()
+        {
+
+            await Task.Delay(0);
+
+            try
+            {
+                var graphClient = AuthenticationHelper.GetAuthenticatedClient();
+                var test = await graphClient.Drives.Request().GetAsync();
+                foreach (var item in test)
+                {
+                    Debug.Print($"Drive type: {item.DriveType.ToString()}");
+                }
+            }
+
+            catch (ServiceException)
+            {
+                return;
+            }
+            return;
+        }
         private void SignOut()
         {
             try

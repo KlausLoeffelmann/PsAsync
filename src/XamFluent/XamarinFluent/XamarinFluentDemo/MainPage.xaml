@@ -21,6 +21,16 @@
                 Margin="0,20,0,0"
                 HorizontalOptions="Center"
                 Clicked="Logout_Clicked"/>
-    </StackLayout>
 
+        <Button x:Name="btnTest" Text=" Test " 
+                BorderWidth="2"
+                BorderColor="Gray"
+                FontSize="Large"
+                IsEnabled="True"
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                Clicked="Test_Clicked"/>
+    </StackLayout>
 </ContentPage>
+
+    
