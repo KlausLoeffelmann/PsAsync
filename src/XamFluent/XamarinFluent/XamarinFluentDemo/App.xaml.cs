@@ -13,7 +13,7 @@ namespace XamarinFluentDemo
         public static string ClientID = "59712ae4-2173-44f3-aff9-b01accc59a72";
 
         public static PublicClientApplication PCA = null;
-        public static string[] Scopes = { "User.Read" };
+        public static string[] Scopes = { "User.Read",  "Files.ReadWrite" };
         public static string Username = string.Empty;
 
         public static UIParent UiParent = null;

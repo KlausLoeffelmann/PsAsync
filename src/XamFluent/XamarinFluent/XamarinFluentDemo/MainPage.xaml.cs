@@ -117,7 +117,7 @@ namespace XamarinFluentDemo
             try
             {
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
-                var test = await graphClient.Drives.Request().GetAsync();
+                var test = await graphClient.Me.Drives.Request().GetAsync();
                 foreach (var item in test)
                 {
                     Debug.Print($"Drive type: {item.DriveType.ToString()}");
