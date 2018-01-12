@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using XamarinConnect;
+using XamImage = Xamarin.Forms.Image;
 
 namespace XamarinFluentDemo
 {
@@ -119,14 +119,25 @@ namespace XamarinFluentDemo
             try
             {
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
-                var item = await graphClient.Me.Drive.Root.Request().Expand(expandString).GetAsync();
-                var pictures = item.Children.CurrentPage.Where(child => child.Folder != null || 
-                                                               child.Image != null || 
-                                                               child.SpecialFolder.Name == "cameraRoll");
 
-                foreach (var pItem in pictures)
+                var root = await graphClient.Me.Drive.Root.Request().Expand(expandString).GetAsync();
+                var folders = root.Children.CurrentPage.Where(child => child.Folder != null || 
+                                                               child.Image != null);
+
+                DriveItem cameraRollFolder = folders.Where(item => item.SpecialFolder?.Name == "cameraRoll").FirstOrDefault();
+
+                if (cameraRollFolder!=null)
                 {
-                    Debug.Print($"Picture: {pItem.Name},{pItem?.SpecialFolder?.Name}");
+                    var files = await graphClient.Me.Drive.Items[cameraRollFolder.Id].Children.Request().GetAsync();
+                    var images = files.Where(item => item.Image != null);
+
+                    var count = 1;
+
+                    foreach (var pItem in images)
+                    {
+                        var image = await LoadImageAsync(pItem.Id);
+                        Debug.Print($"Loaded No: {count++} - Picture: {pItem.Name}, Size: {new Size(image.Width, image.Height).ToString()}");
+                    }
                 }
             }
 
@@ -136,6 +147,32 @@ namespace XamarinFluentDemo
             }
             return;
         }
+
+        private async Task<XamImage> LoadImageAsync(string itemId)
+        {
+            GraphServiceClient client = AuthenticationHelper.GetAuthenticatedClient();
+            XamImage image = new XamImage();
+
+            using (var responseStream = await client.Me.Drive.Items[itemId].Content.Request().GetAsync())
+            {
+                var memoryStream = responseStream as MemoryStream;
+                if (memoryStream != null)
+                {
+                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                }
+                else
+                {
+                    using (memoryStream = new MemoryStream())
+                    {
+                        await responseStream.CopyToAsync(memoryStream);
+                        memoryStream.Position = 0;
+                        image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                    }
+                }
+                return image;
+            }
+        }
+
         private void SignOut()
         {
             try
