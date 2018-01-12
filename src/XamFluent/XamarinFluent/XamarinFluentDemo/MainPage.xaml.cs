@@ -114,19 +114,25 @@ namespace XamarinFluentDemo
 
             await Task.Delay(0);
 
+            var expandString = "thumbnails, children($expand=thumbnails)";
+
             try
             {
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
-                var test = await graphClient.Me.Drives.Request().GetAsync();
-                foreach (var item in test)
+                var item = await graphClient.Me.Drive.Root.Request().Expand(expandString).GetAsync();
+                var pictures = item.Children.CurrentPage.Where(child => child.Folder != null || 
+                                                               child.Image != null || 
+                                                               child.SpecialFolder.Name == "cameraRoll");
+
+                foreach (var pItem in pictures)
                 {
-                    Debug.Print($"Drive type: {item.DriveType.ToString()}");
+                    Debug.Print($"Picture: {pItem.Name},{pItem?.SpecialFolder?.Name}");
                 }
             }
 
-            catch (ServiceException)
+            catch (ServiceException ex)
             {
-                return;
+                Debug.Print(ex.Message);
             }
             return;
         }

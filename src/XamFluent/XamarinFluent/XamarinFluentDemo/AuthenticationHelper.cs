@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using Microsoft.Identity.Client;
 using XamarinFluentDemo;
 using System.Linq;
+using XamImage = Xamarin.Forms.Image;
+using System.IO;
+using Xamarin.Forms;
 
 namespace XamarinConnect
 {
@@ -90,5 +93,29 @@ namespace XamarinConnect
 
         }
 
+        private async Task<XamImage> LoadImage(string itemId)
+        {
+            GraphServiceClient client = GetAuthenticatedClient();
+            XamImage image = new XamImage();
+
+            using (var responseStream = await client.Me.Drive.Items[itemId].Content.Request().GetAsync())
+            {
+                var memoryStream = responseStream as MemoryStream;
+                if (memoryStream != null)
+                {
+                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                }
+                else
+                {
+                    using (memoryStream = new MemoryStream())
+                    {
+                        await responseStream.CopyToAsync(memoryStream);
+                        memoryStream.Position = 0;
+                        image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                    }
+                }
+                return image;
+            }
+        }
     }
 }
