@@ -3,17 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinFluentDemo"
              x:Class="XamarinFluentDemo.MainPage">
-
-    <StackLayout HorizontalOptions="Center"
-                 VerticalOptions="Center">
-        <Label Text="Welcome to Xamarin.Forms!"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <BoxView BackgroundColor="DarkBlue"
+                 Color="DarkBlue"/>
+        <Label Grid.Row="0"
+               TextColor="White"
+               Text="OneDrive Picture Viewer"
                FontSize="Large"
                HorizontalOptions="Center"/>
-        <Label x:Name="txtLoginState" Text="You are not logged in."
-               FontSize="Medium"
-               Margin="0,20,0,0"
+        <BoxView Grid.Row="1" BackgroundColor="DarkBlue"
+                 Color="DarkBlue"
+                 Margin="0,0,0,0"/>
+        <Label Grid.Row="1" x:Name="txtLoginState" 
+               TextColor="White"
+               Text="You are not logged in."
+               FontSize="Small"
                HorizontalOptions="Center"/>
-        <Button x:Name="btnLogout" Text=" Logout " 
+        
+        <StackLayout Grid.Row="2" 
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Button x:Name="btnLogout" Text=" Logout " 
                 BorderWidth="2"
                 BorderColor="Gray"
                 FontSize="Large"
@@ -22,7 +38,7 @@
                 HorizontalOptions="Center"
                 Clicked="Logout_Clicked"/>
 
-        <Button x:Name="btnTest" Text=" Test " 
+            <Button x:Name="btnTest" Text=" Test " 
                 BorderWidth="2"
                 BorderColor="Gray"
                 FontSize="Large"
@@ -30,7 +46,8 @@
                 Margin="0,20,0,0"
                 HorizontalOptions="Center"
                 Clicked="Test_Clicked"/>
-    </StackLayout>
+        </StackLayout>
+    </Grid>
 </ContentPage>
 
     
