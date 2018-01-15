@@ -7,26 +7,54 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <BoxView BackgroundColor="DarkBlue"
+        <BoxView Grid.Row="0" BackgroundColor="LightGray"
+                 HeightRequest="{Binding PhoneStatusLineMargin}"/>
+        <BoxView Grid.Row="1" Grid.RowSpan="2" BackgroundColor="DarkBlue"
                  Color="DarkBlue"/>
-        <Label Grid.Row="0"
+        <Label Grid.Row="1"
                TextColor="White"
                Text="OneDrive Picture Viewer"
                FontSize="Large"
                HorizontalOptions="Center"/>
-        <BoxView Grid.Row="1" BackgroundColor="DarkBlue"
-                 Color="DarkBlue"
-                 Margin="0,0,0,0"/>
-        <Label Grid.Row="1" x:Name="txtLoginState" 
+        <Label Grid.Row="2" x:Name="txtLoginState" 
                TextColor="White"
-               Text="You are not logged in."
+               Text="{Binding StatusLine}"
                FontSize="Small"
                HorizontalOptions="Center"/>
-        
-        <StackLayout Grid.Row="2" 
+
+        <ListView x:Name="listView" 
+                  Grid.Row="3"
+                  ItemsSource="{Binding Thumbnails}" 
+                  HasUnevenRows="true"
+				  RowHeight="-1"
+                  IsPullToRefreshEnabled="True"
+                  RefreshCommand="{Binding RefreshCommand}"
+                  IsRefreshing="{Binding IsRefreshing}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0"
+                                   BackgroundColor="AliceBlue"
+                                   Source="{Binding ImageSource}"
+                                    />
+                            <Label Grid.Row="1" 
+                                   Text="{Binding ImageDescription}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout Grid.Row="4" 
                      HorizontalOptions="Center"
                      VerticalOptions="Center">
             <Button x:Name="btnLogout" Text=" Logout " 
@@ -45,7 +73,7 @@
                 IsEnabled="True"
                 Margin="0,20,0,0"
                 HorizontalOptions="Center"
-                Clicked="Test_Clicked"/>
+                Command="{Binding TestCommand}"/>
         </StackLayout>
     </Grid>
 </ContentPage>

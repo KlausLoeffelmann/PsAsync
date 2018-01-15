@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using XamarinFluentDemo.ViewModels;
 using Foundation;
 using Microsoft.Identity.Client;
 using UIKit;
@@ -24,10 +25,29 @@ namespace XamarinFluentDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            var tempApp = new App();
+            LoadApplication(tempApp);
 
             App.PCA.RedirectUri = "msal59712ae4-2173-44f3-aff9-b01accc59a72://auth";
-            return base.FinishedLaunching(app, options);
+            var result = base.FinishedLaunching(app, options);
+
+            // Handle - for iPhone X - the upper "Gap":
+            if (UIApplication.SharedApplication.KeyWindow != null)
+            {
+                MainViewModel.IPhoneSafeRec = new Xamarin.Forms.Rectangle(UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Left,
+                                                                          UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Top,
+                                                                          UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Right-
+                                                                          UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Left,
+                                                                          UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Bottom-
+                                                                          UIApplication.SharedApplication.KeyWindow.SafeAreaInsets.Top);
+
+                if (tempApp.MainPage.BindingContext is MainViewModel mainViewModel)
+                {
+                    mainViewModel.PhoneStatusLineMargin = (float) MainViewModel.IPhoneSafeRec.Top;
+                }
+            }
+
+            return result;
         }
 
         public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)

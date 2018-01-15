@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using XamImage = Xamarin.Forms.Image;
+using XamarinFluentDemo.ViewModels;
 
 namespace XamarinFluentDemo
 {
@@ -20,10 +20,13 @@ namespace XamarinFluentDemo
         private int myStateMachineCounter;
         AuthenticationResult myAr;
         private SynchronizationContext mySyncContext = SynchronizationContext.Current;
+        private MainViewModel myMainViewModel;
 
         public MainPage()
 		{
 			InitializeComponent();
+            myMainViewModel = new MainViewModel();
+            this.BindingContext = myMainViewModel;
 		}
 
         private void Logout_Clicked(object sender, EventArgs e)
@@ -33,143 +36,61 @@ namespace XamarinFluentDemo
             btnLogout.IsEnabled = false;
         }
 
-        private async void Test_Clicked(object sender, EventArgs e)
-        {
-            await TestOneDriveThings();
-        }
-
         protected async override void OnAppearing()
         {
-            if (App.IsDesignMode)
+            if (!App.IsAppRunning)
             {
                 return;
             }
 
+            if (myStateMachineCounter == 0)
             {
-                await Task.Run(async () =>
+                // let's see if we have a user in our belly already
+                try
                 {
+                    myMainViewModel.StatusLine = "Trying to log you in silently...";
 
-                    if (myStateMachineCounter == 0)
-                    {
-                    // let's see if we have a user in our belly already
+                    myAr = await App.PCA.AcquireTokenSilentAsync(App.Scopes, App.PCA.Users.FirstOrDefault());
+                    await RefreshUserDataAsync(myAr.AccessToken);
+                    Debug.Print("Silent login succeeded.");
+                    myMainViewModel.StatusLine = "Logged in silently.";
+                    btnLogout.IsEnabled = false;
+                    myStateMachineCounter = 2;
+                }
+                catch (Exception eOuter)
+                {
+                    Debug.Print(eOuter.Message);
+
                     try
-                        {
-                            mySyncContext.Post((state) =>
-                            {
-                                txtLoginState.Text = "Trying to log you in silently...";
-                            }, null);
-
-                            myAr = await App.PCA.AcquireTokenSilentAsync(App.Scopes, App.PCA.Users.FirstOrDefault());
-                            await RefreshUserDataAsync(myAr.AccessToken);
-                            Debug.Print("Silent login succeeded.");
-                            mySyncContext.Post((state) =>
-                            {
-                                txtLoginState.Text = "Logged in silently.";
-                                btnLogout.IsEnabled = true;
-                            }, null);
-
-                            myStateMachineCounter = 2;
-                        }
-                        catch (Exception eOuter)
-                        {
-                            Debug.Print(eOuter.Message);
-
-                            try
-                            {
-                                //No, we don't - so we need to login interactively.
-                                mySyncContext.Post((state) =>
-                                {
-                                    txtLoginState.Text = "Trying to log you in silently failed. Manual Login...";
-                                }, null);
-
-                                myStateMachineCounter = 1;
-                                myAr = await App.PCA.AcquireTokenAsync(App.Scopes, App.UiParent);
-                                
-                                Debug.Print("Manual login succeeded.");
-
-                                mySyncContext.Post((state) =>
-                                {
-                                    btnLogout.IsEnabled = true;
-                                    txtLoginState.Text = "Logged in succeeded.";
-                                }, null);
-                            }
-                            catch (Exception eInner)
-                            {
-                                Debug.Print(eInner.Message);
-                            }
-                        }
-
-                        if (myStateMachineCounter == 1)
-                        {
-                            await RefreshUserDataAsync(myAr.AccessToken);
-                        }
-                    }
-                });
-            }
-        }
-
-        // Uploads the specified file to the user's root OneDrive directory.
-        public async Task TestOneDriveThings()
-        {
-
-            await Task.Delay(0);
-
-            var expandString = "thumbnails, children($expand=thumbnails)";
-
-            try
-            {
-                var graphClient = AuthenticationHelper.GetAuthenticatedClient();
-
-                var root = await graphClient.Me.Drive.Root.Request().Expand(expandString).GetAsync();
-                var folders = root.Children.CurrentPage.Where(child => child.Folder != null || 
-                                                               child.Image != null);
-
-                DriveItem cameraRollFolder = folders.Where(item => item.SpecialFolder?.Name == "cameraRoll").FirstOrDefault();
-
-                if (cameraRollFolder!=null)
-                {
-                    var files = await graphClient.Me.Drive.Items[cameraRollFolder.Id].Children.Request().GetAsync();
-                    var images = files.Where(item => item.Image != null);
-
-                    var count = 1;
-
-                    foreach (var pItem in images)
                     {
-                        var image = await LoadImageAsync(pItem.Id);
-                        Debug.Print($"Loaded No: {count++} - Picture: {pItem.Name}, Size: {new Size(image.Width, image.Height).ToString()}");
+                        //No, we don't - so we need to login interactively.
+                        myMainViewModel.StatusLine = "Trying to log you in silently failed. Manual Login...";
+
+                        myStateMachineCounter = 1;
+                        myAr = await App.PCA.AcquireTokenAsync(App.Scopes, App.UiParent);
+                        await RefreshUserDataAsync(myAr.AccessToken);
+                        Debug.Print("Manual login succeeded.");
+                        btnLogout.IsEnabled = true;
+                        myMainViewModel.StatusLine = "Logged in succeeded.";
+                        myStateMachineCounter = 2;
+
+                        // On Apearing will be called a second time, we need to 
+                        // Directly execute the State-2-Code then.
+                        // This is why we return. Finding the CameraRollFolder should
+                        // be working with a visible view!
+                        return;
+
                     }
-                }
-            }
-
-            catch (ServiceException ex)
-            {
-                Debug.Print(ex.Message);
-            }
-            return;
-        }
-
-        private async Task<XamImage> LoadImageAsync(string itemId)
-        {
-            GraphServiceClient client = AuthenticationHelper.GetAuthenticatedClient();
-            XamImage image = new XamImage();
-
-            using (var responseStream = await client.Me.Drive.Items[itemId].Content.Request().GetAsync())
-            {
-                var memoryStream = responseStream as MemoryStream;
-                if (memoryStream != null)
-                {
-                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
-                }
-                else
-                {
-                    using (memoryStream = new MemoryStream())
+                    catch (Exception eInner)
                     {
-                        await responseStream.CopyToAsync(memoryStream);
-                        memoryStream.Position = 0;
-                        image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                        Debug.Print(eInner.Message);
                     }
                 }
-                return image;
+
+                if (myStateMachineCounter == 2)
+                {
+                    var folderId = await myMainViewModel.FindCameraRollFolderAsync();
+                }
             }
         }
 
