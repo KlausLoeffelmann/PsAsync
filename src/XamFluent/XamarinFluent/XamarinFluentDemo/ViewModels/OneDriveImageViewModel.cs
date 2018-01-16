@@ -1,6 +1,7 @@
 ﻿using ActiveDevelop.MvvmBaseLib;
 using Microsoft.Graph;
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -16,6 +17,8 @@ namespace XamarinFluentDemo.ViewModels
         private ImageSource myImageSource;
         private string myImageDescription;
         private string myId;
+
+        private static Stopwatch myStopWatch = Stopwatch.StartNew();
 
         private async Task<XamImage> LoadImageAsync(string itemId)
         {
@@ -41,19 +44,41 @@ namespace XamarinFluentDemo.ViewModels
             }
         }
 
-        private async Task<XamImage> LoadThumbnailAsync(string itemId)
+        private static async Task<XamImage> LoadThumbnailAsync(string itemId)
         {
             GraphServiceClient client = AuthenticationHelper.GetAuthenticatedClient();
             XamImage image = new XamImage();
 
+            var expandString = "thumbnails, children($expand=thumbnails)";
+
             try
             {
-                var thumbnailSet = (await client.Me.Drive.Items[itemId].Thumbnails.Request().GetAsync()).FirstOrDefault();
+                var thumbnailSet = (await client.Me.Drive.Items[itemId].Request().Expand(expandString).GetAsync()).Thumbnails.FirstOrDefault();
+
                 if (thumbnailSet!=null)
                 {
                     if (thumbnailSet.Large!=null)
                     {
-                        image.Source = ImageSource.FromUri(new Uri(thumbnailSet.Large.Url));
+                        Debug.Print($"***** {myStopWatch.ElapsedMilliseconds} Setting Picture URI for itemID {itemId}");
+                        UriImageSource uriImageSource = (UriImageSource) ImageSource.FromUri(new Uri(thumbnailSet.Large.Url));
+
+                        using (var responseStream = await uriImageSource.GetStreamAsync())
+                        {
+                            if (responseStream is MemoryStream memoryStream)
+                            {
+                                image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                            }
+                            else
+                            {
+                                using (memoryStream = new MemoryStream())
+                                {
+                                    await responseStream.CopyToAsync(memoryStream);
+                                    memoryStream.Position = 0;
+                                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
+                                }
+                            }
+                            Debug.Print($"***** {myStopWatch.ElapsedMilliseconds} READY Setting Picture URI for itemID {itemId}");
+                        }
                     }
                 }
             }
@@ -142,4 +167,7 @@ namespace XamarinFluentDemo.ViewModels
 
         public bool ProcessAsync { get; set; }
     }
+
 }
+
+
