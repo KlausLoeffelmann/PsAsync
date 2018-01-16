@@ -8,12 +8,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <BoxView Grid.Row="0" BackgroundColor="LightGray"
+                 Margin="0,-5,0,0"
                  HeightRequest="{Binding PhoneStatusLineMargin}"/>
-        <BoxView Grid.Row="1" Grid.RowSpan="2" BackgroundColor="DarkBlue"
+        <BoxView Grid.Row="1" Grid.RowSpan="3" BackgroundColor="DarkBlue"
                  Color="DarkBlue"/>
         <Label Grid.Row="1"
                TextColor="White"
@@ -25,10 +27,32 @@
                Text="{Binding StatusLine}"
                FontSize="Small"
                HorizontalOptions="Center"/>
+        <StackLayout Grid.Row="3"
+                     Orientation="Horizontal"
+                     HorizontalOptions="Center">
+            <Button x:Name="btnShowAsync"
+                    Margin="10,5,10,5"
+                    Text="Show Async" 
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    FontSize="Medium"
+                    IsEnabled="True"
+                    Command="{Binding ShowThumbnailsAsyncCommand}"/>
+            <Button x:Name="btnShowSync" 
+                    Text="Show Sync" 
+                    Margin="10,5,10,5"
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    FontSize="Medium"
+                    IsEnabled="True"
+                    Command="{Binding ShowThumbnailsSyncCommand}"/>
+        </StackLayout>
+
+        <BoxView Grid.Row="4" BackgroundColor="LightGray"/>
 
         <ListView x:Name="listView" 
-                  Grid.Row="3"
-                  ItemsSource="{Binding Thumbnails}" 
+                  Grid.Row="4"
+                  ItemsSource="{Binding Images}" 
                   HasUnevenRows="true"
 				  RowHeight="-1"
                   IsPullToRefreshEnabled="True"
@@ -44,9 +68,11 @@
                             </Grid.RowDefinitions>
                             <Image Grid.Row="0"
                                    BackgroundColor="AliceBlue"
-                                   Source="{Binding ImageSource}"
+                                   Source="{Binding ThumbnailSource}"
+                                   Aspect="AspectFit"
                                     />
                             <Label Grid.Row="1" 
+                                   HorizontalOptions="Center"
                                    Text="{Binding ImageDescription}"/>
                         </Grid>
                     </ViewCell>
@@ -54,27 +80,16 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <StackLayout Grid.Row="4" 
-                     HorizontalOptions="Center"
-                     VerticalOptions="Center">
-            <Button x:Name="btnLogout" Text=" Logout " 
+        <Button x:Name="btnLogout" 
+                    Grid.Row="5" 
+                    Text=" Logout " 
                 BorderWidth="2"
                 BorderColor="Gray"
-                FontSize="Large"
+                FontSize="Medium"
                 IsEnabled="False"
-                Margin="0,20,0,0"
+                Margin="0,5,0,0"
                 HorizontalOptions="Center"
                 Clicked="Logout_Clicked"/>
-
-            <Button x:Name="btnTest" Text=" Test " 
-                BorderWidth="2"
-                BorderColor="Gray"
-                FontSize="Large"
-                IsEnabled="True"
-                Margin="0,20,0,0"
-                HorizontalOptions="Center"
-                Command="{Binding TestCommand}"/>
-        </StackLayout>
     </Grid>
 </ContentPage>
 

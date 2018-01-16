@@ -1,13 +1,10 @@
 ﻿using ActiveDevelop.MvvmBaseLib;
 using ActiveDevelop.MvvmBaseLib.Mvvm;
 using Microsoft.Graph;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -22,8 +19,11 @@ namespace XamarinFluentDemo.ViewModels
         private ObservableCollection<OneDriveImageViewModel> myImages;
         private string myStatusLine;
         private ICommand myRefreshCommand;
-        private ICommand myTestCommand;
+        private ICommand myShowThumbnailsAsyncCommand;
+        private ICommand myShowThumbnailsSyncCommand;
         private float myPhoneStatusLineMargin;
+        private bool myLoadAsync;
+        private bool myIsRefreshing;
 
         public MainViewModel()
         {
@@ -32,9 +32,20 @@ namespace XamarinFluentDemo.ViewModels
 
             });
 
-            myTestCommand = new RelayCommand((state) =>
+            myShowThumbnailsSyncCommand = new RelayCommand(async (state) =>
             {
+                myLoadAsync = false;
+                IsRefreshing = true;
+                Images = await GetPictureListAsync(CameraRollFolder);
+                IsRefreshing = false;
+            });
 
+            myShowThumbnailsAsyncCommand = new RelayCommand(async (state) => 
+            {
+                myLoadAsync = true;
+                IsRefreshing = true;
+                Images = await GetPictureListAsync(CameraRollFolder);
+                IsRefreshing = false;
             });
         }
 
@@ -61,7 +72,7 @@ namespace XamarinFluentDemo.ViewModels
             return cameraRollFolder;
         }
 
-        public async Task<ObservableCollection<OneDriveImageViewModel>> GetThumbnailsAsync(DriveItem cameraRoll)
+        public async Task<ObservableCollection<OneDriveImageViewModel>> GetPictureListAsync(DriveItem cameraRoll)
         {
             var imageCollection = new ObservableCollection<OneDriveImageViewModel>();
 
@@ -72,41 +83,15 @@ namespace XamarinFluentDemo.ViewModels
                 var files = await graphClient.Me.Drive.Items[cameraRoll.Id].Children.Request().GetAsync();
                 var images = files.Where(item => item.Image != null);
 
-                var count = 1;
-
                 foreach (var pItem in images)
                 {
-                    var image = await LoadImageAsync(pItem.Id);
-                    imageCollection.Add(new OneDriveImageViewModel { ImageDescription = pItem.Description });
-                    Debug.Print($"Loaded No: {count++} - Picture: {pItem.Name}, Size: {new Size(image.Width, image.Height).ToString()}");
+                    imageCollection.Add(new OneDriveImageViewModel { ImageDescription = pItem.Name,
+                                                                     Id=pItem.Id,
+                                                                     ProcessAsync=myLoadAsync});
                 }
             }
 
             return imageCollection;
-        }
-
-        private async Task<XamImage> LoadImageAsync(string itemId)
-        {
-            GraphServiceClient client = AuthenticationHelper.GetAuthenticatedClient();
-            XamImage image = new XamImage();
-
-            using (var responseStream = await client.Me.Drive.Items[itemId].Content.Request().GetAsync())
-            {
-                if (responseStream is MemoryStream memoryStream)
-                {
-                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
-                }
-                else
-                {
-                    using (memoryStream = new MemoryStream())
-                    {
-                        await responseStream.CopyToAsync(memoryStream);
-                        memoryStream.Position = 0;
-                        image.Source = ImageSource.FromStream(() => { return memoryStream; });
-                    }
-                }
-                return image;
-            }
         }
 
         public ICommand RefreshCommand
@@ -118,22 +103,36 @@ namespace XamarinFluentDemo.ViewModels
 
             set
             {
-                myRefreshCommand = value;
+                SetProperty(ref myRefreshCommand, value);
             }
         }
 
-        public ICommand TestCommand
+        public ICommand ShowThumbnailsSyncCommand
         {
             get
             {
-                return myTestCommand;
+                return myShowThumbnailsSyncCommand;
             }
 
             set
             {
-                myTestCommand = value;
+                SetProperty(ref myShowThumbnailsAsyncCommand, value);
             }
         }
+
+        public ICommand ShowThumbnailsAsyncCommand
+        {
+            get
+            {
+                return myShowThumbnailsAsyncCommand;
+            }
+
+            set
+            {
+                SetProperty(ref myShowThumbnailsAsyncCommand , value);
+            }
+        }
+
 
         public ObservableCollection<OneDriveImageViewModel> Images
         {
@@ -173,5 +172,20 @@ namespace XamarinFluentDemo.ViewModels
                 SetProperty(ref myPhoneStatusLineMargin, value);
             }
         }
+
+        public bool IsRefreshing
+        {
+            get
+            {
+                return myIsRefreshing;
+            }
+
+            set
+            {
+                SetProperty(ref myIsRefreshing, value);
+            }
+        }
+
+        public DriveItem CameraRollFolder { get; internal set; }
     }
 }

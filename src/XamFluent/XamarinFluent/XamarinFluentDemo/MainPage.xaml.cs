@@ -54,7 +54,7 @@ namespace XamarinFluentDemo
                     await RefreshUserDataAsync(myAr.AccessToken);
                     Debug.Print("Silent login succeeded.");
                     myMainViewModel.StatusLine = "Logged in silently.";
-                    btnLogout.IsEnabled = false;
+                    btnLogout.IsEnabled = true;
                     myStateMachineCounter = 2;
                 }
                 catch (Exception eOuter)
@@ -73,13 +73,6 @@ namespace XamarinFluentDemo
                         btnLogout.IsEnabled = true;
                         myMainViewModel.StatusLine = "Logged in succeeded.";
                         myStateMachineCounter = 2;
-
-                        // On Apearing will be called a second time, we need to 
-                        // Directly execute the State-2-Code then.
-                        // This is why we return. Finding the CameraRollFolder should
-                        // be working with a visible view!
-                        return;
-
                     }
                     catch (Exception eInner)
                     {
@@ -89,7 +82,19 @@ namespace XamarinFluentDemo
 
                 if (myStateMachineCounter == 2)
                 {
-                    var folderId = await myMainViewModel.FindCameraRollFolderAsync();
+                    myMainViewModel.StatusLine = "Looking for Camera Roll Folder...";
+                    var cameraRoll = await myMainViewModel.FindCameraRollFolderAsync();
+
+                    if (cameraRoll!=null)
+                    {
+                        myMainViewModel.StatusLine = $"Found: {cameraRoll.Name}";
+                        myMainViewModel.CameraRollFolder = cameraRoll;
+                    }
+                    else
+                    {
+                        myMainViewModel.StatusLine = $"Not Found.";
+                        myMainViewModel.CameraRollFolder = null;
+                    }
                 }
             }
         }
