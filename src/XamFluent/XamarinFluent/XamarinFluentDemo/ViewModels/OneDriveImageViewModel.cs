@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamImage = Xamarin.Forms.Image;
@@ -44,7 +45,7 @@ namespace XamarinFluentDemo.ViewModels
             }
         }
 
-        private static async Task<XamImage> LoadThumbnailAsync(string itemId)
+        private async Task<XamImage> LoadThumbnailAsync(string itemId)
         {
             GraphServiceClient client = AuthenticationHelper.GetAuthenticatedClient();
             XamImage image = new XamImage();
@@ -64,19 +65,10 @@ namespace XamarinFluentDemo.ViewModels
 
                         using (var responseStream = await uriImageSource.GetStreamAsync())
                         {
-                            if (responseStream is MemoryStream memoryStream)
-                            {
-                                image.Source = ImageSource.FromStream(() => { return memoryStream; });
-                            }
-                            else
-                            {
-                                using (memoryStream = new MemoryStream())
-                                {
-                                    await responseStream.CopyToAsync(memoryStream);
-                                    memoryStream.Position = 0;
-                                    image.Source = ImageSource.FromStream(() => { return memoryStream; });
-                                }
-                            }
+                            byte[] bytes = new byte[responseStream.Length];
+                                var result = await responseStream.ReadAsync(bytes, 0, (int)responseStream.Length);
+
+                            image.Source = ImageSource.FromStream(() => new MemoryStream(bytes));
                             Debug.Print($"***** {myStopWatch.ElapsedMilliseconds} READY Setting Picture URI for itemID {itemId}");
                         }
                     }
@@ -114,11 +106,30 @@ namespace XamarinFluentDemo.ViewModels
             {
                 if (myThumbnailSource==null)
                 {
-                    Task.Run(async () =>
+                    if (ProcessAsync)
                     {
-                        var image = await LoadThumbnailAsync(this.Id);
-                        SetProperty(ref myThumbnailSource, image.Source);
-                    });
+                        Task.Run(async () =>
+                        {
+                            var image = await LoadThumbnailAsync(this.Id);
+                            SetProperty(ref myThumbnailSource, image.Source);
+                        });
+                    }
+                    else
+
+                    {
+                        // We need to "emulate sync" here.
+                        var m = new ManualResetEvent(false);
+                        XamImage image = null;
+
+                        var task = Task.Run(() => 
+                        {
+                            image = LoadThumbnailAsync(this.Id).Result;
+                            m.Set();
+                        });
+
+                        m.WaitOne();
+                        return image.Source;
+                    }
                 }
 
                 return myThumbnailSource;
