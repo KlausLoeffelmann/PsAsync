@@ -199,18 +199,10 @@ namespace XamarinFluentDemo.ViewModels
             {
                 if (myStaticDefaultPic==null)
                 {
-                    using (var fStream = new FileStream("Assets/hourglas3d.png", FileMode.Open))
-                    {
-                        byte[] bytes = new byte[fStream.Length];
-                        var result = fStream.Read(bytes, 0, (int)fStream.Length);
-
-
-                        myStaticDefaultPic = ImageSource.FromStream(() => new MemoryStream(bytes));
-                    }
+                    myStaticDefaultPic = ImageSource.FromResource("XamarinFluentDemo.Assets.hourglas3d.png");
                 }
 
                 return myStaticDefaultPic;
-
             }
         }
     }

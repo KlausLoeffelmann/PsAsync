@@ -63,15 +63,15 @@
                     <ViewCell>
                         <Grid>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="300"/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             <Image Grid.Row="0"
                                    BackgroundColor="AliceBlue"
                                    Source="{Binding ThumbnailSource}"
                                    Aspect="AspectFit"
-                                   HorizontalOptions="CenterAndExpand"
-                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
                                    Margin="10,10,10,10"
                                     />
                             <Label Grid.Row="1" 

@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\hourglas3d.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\hourglas3d.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Graph" Version="1.7.0" />
     <PackageReference Include="Microsoft.Identity.Client" Version="1.1.1-preview0040" />
     <PackageReference Include="MvvmFormsBase" Version="2.3.0-Beta" />
@@ -19,9 +27,5 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Assets\" />
   </ItemGroup>
 </Project>
