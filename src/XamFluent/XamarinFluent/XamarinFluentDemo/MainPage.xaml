@@ -70,6 +70,9 @@
                                    BackgroundColor="AliceBlue"
                                    Source="{Binding ThumbnailSource}"
                                    Aspect="AspectFit"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand"
+                                   Margin="10,10,10,10"
                                     />
                             <Label Grid.Row="1" 
                                    HorizontalOptions="Center"

@@ -106,6 +106,8 @@ namespace XamarinFluentDemo.ViewModels
             {
                 if (myThumbnailSource==null)
                 {
+                    myThumbnailSource = MainViewModel.DefaultPic;
+
                     if (ProcessAsync)
                     {
                         Task.Run(async () =>

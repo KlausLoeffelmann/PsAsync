@@ -14,7 +14,10 @@ namespace XamarinFluentDemo.ViewModels
 {
     public class MainViewModel : BindableBase
     {
+        public const int MAX_PICS_TO_TAKE = 15;
+
         public static Rectangle IPhoneSafeRec;
+        private static ImageSource myStaticDefaultPic;
 
         private ObservableCollection<OneDriveImageViewModel> myImages;
         private string myStatusLine;
@@ -47,6 +50,8 @@ namespace XamarinFluentDemo.ViewModels
                 Images = await GetPictureListAsync(CameraRollFolder);
                 IsRefreshing = false;
             });
+
+            // Getting the default pic from the Assets folder.
         }
 
         public async Task<DriveItem> FindCameraRollFolderAsync()
@@ -81,7 +86,7 @@ namespace XamarinFluentDemo.ViewModels
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
 
                 var files = await graphClient.Me.Drive.Items[cameraRoll.Id].Children.Request().GetAsync();
-                var images = files.Where(item => item.Image != null);
+                var images = files.Where(item => item.Image != null).Take(MAX_PICS_TO_TAKE);
 
                 foreach (var pItem in images)
                 {
@@ -187,5 +192,26 @@ namespace XamarinFluentDemo.ViewModels
         }
 
         public DriveItem CameraRollFolder { get; internal set; }
+
+        public static ImageSource DefaultPic
+        {
+            get
+            {
+                if (myStaticDefaultPic==null)
+                {
+                    using (var fStream = new FileStream("Assets/hourglas3d.png", FileMode.Open))
+                    {
+                        byte[] bytes = new byte[fStream.Length];
+                        var result = fStream.Read(bytes, 0, (int)fStream.Length);
+
+
+                        myStaticDefaultPic = ImageSource.FromStream(() => new MemoryStream(bytes));
+                    }
+                }
+
+                return myStaticDefaultPic;
+
+            }
+        }
     }
 }
