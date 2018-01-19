@@ -1,6 +1,7 @@
 ﻿using ActiveDevelop.MvvmBaseLib;
 using ActiveDevelop.MvvmBaseLib.Mvvm;
 using Microsoft.Graph;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
@@ -14,7 +15,7 @@ namespace XamarinFluentDemo.ViewModels
 {
     public class MainViewModel : BindableBase
     {
-        public const int MAX_PICS_TO_TAKE = 15;
+        public const int MAX_PICS_TO_TAKE = 25;
 
         public static Rectangle IPhoneSafeRec;
         private static ImageSource myStaticDefaultPic;
@@ -41,6 +42,7 @@ namespace XamarinFluentDemo.ViewModels
                 IsRefreshing = true;
                 Images = await GetPictureListAsync(CameraRollFolder);
                 IsRefreshing = false;
+                await Task.Delay(1000);
             });
 
             myShowThumbnailsAsyncCommand = new RelayCommand(async (state) => 
@@ -49,6 +51,7 @@ namespace XamarinFluentDemo.ViewModels
                 IsRefreshing = true;
                 Images = await GetPictureListAsync(CameraRollFolder);
                 IsRefreshing = false;
+
             });
 
             // Getting the default pic from the Assets folder.
@@ -57,7 +60,8 @@ namespace XamarinFluentDemo.ViewModels
         public async Task<DriveItem> FindCameraRollFolderAsync()
         {
             var expandString = "thumbnails, children($expand=thumbnails)";
-            DriveItem cameraRollFolder=null;
+            DriveItem cameraRollFolder =null;
+
             try
             {
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
@@ -86,7 +90,9 @@ namespace XamarinFluentDemo.ViewModels
                 var graphClient = AuthenticationHelper.GetAuthenticatedClient();
 
                 var files = await graphClient.Me.Drive.Items[cameraRoll.Id].Children.Request().GetAsync();
-                var images = files.Where(item => item.Image != null).Take(MAX_PICS_TO_TAKE);
+                var images = files.Where(item => item.Image != null).
+                    OrderByDescending((item) => item.LastModifiedDateTime).
+                    Take(MAX_PICS_TO_TAKE);
 
                 foreach (var pItem in images)
                 {
