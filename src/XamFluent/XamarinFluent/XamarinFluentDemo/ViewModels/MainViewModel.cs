@@ -205,7 +205,13 @@ namespace XamarinFluentDemo.ViewModels
             {
                 if (myStaticDefaultPic==null)
                 {
-                    myStaticDefaultPic = ImageSource.FromResource("XamarinFluentDemo.Assets.hourglas3d.png");
+                    try
+                    {
+                        myStaticDefaultPic = ImageSource.FromResource("XamarinFluentDemo.Assets.hourglas3d.png");
+                    }
+                    catch (System.Exception)
+                    {
+                    }
                 }
 
                 return myStaticDefaultPic;

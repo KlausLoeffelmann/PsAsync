@@ -32,17 +32,21 @@
                      HorizontalOptions="Center">
             <Button x:Name="btnShowAsync"
                     Margin="10,5,10,5"
-                    Text="Show Async" 
+                    Text=" Show Async "
                     BorderWidth="2"
                     BorderColor="Gray"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
                     FontSize="Medium"
                     IsEnabled="True"
                     Command="{Binding ShowThumbnailsAsyncCommand}"/>
             <Button x:Name="btnShowSync" 
-                    Text="Show Sync" 
+                    Text=" Show Sync " 
                     Margin="10,5,10,5"
                     BorderWidth="2"
                     BorderColor="Gray"
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
                     FontSize="Medium"
                     IsEnabled="True"
                     Command="{Binding ShowThumbnailsSyncCommand}"/>
@@ -88,9 +92,11 @@
                     Text=" Logout " 
                 BorderWidth="2"
                 BorderColor="Gray"
+                BackgroundColor="LightGray"
+                TextColor="Black"
                 FontSize="Medium"
                 IsEnabled="False"
-                Margin="0,5,0,0"
+                Margin="0,5,0,5"
                 HorizontalOptions="Center"
                 Clicked="Logout_Clicked"/>
     </Grid>
