@@ -1,0 +1,169 @@
+﻿++++++++++++++++++++++++++
+MvvmForms Info: 2017-11-08
+++++++++++++++++++++++++++
+
+MvvmFormsBase is part of MvvmForms and offers support classes for creating ViewModels.
+MvvmFormsBase is Open Source under the MIT licence; 
+The main MvvmForms library, however, is Dual Licence.
+
+You can use MvvmForms freely for evaluation, for acadamic purposes, for personal 
+non-commercial purposes and for Open Source GPL Projects. If you want to use 
+after evaluation in your commercial team projects, you need to obtain a per-developer-licence.
+Please contact mvvmforms@activedevelop.de for further information.
+
+<
+==================================
+ CHANGELOG    
+ NEW IN 2.3.0 Beta1 2017-11-08
+==================================
+
+* Fixed Designer Crash when using .NET Standard
+* Implemented a WeakEventManager for .NET Standard
+
+==================================
+ CHANGELOG    
+ NEW IN 2.2.0 Beta1 2017-06-30
+==================================
+
+* Introducing .NET Standard 1.4 as a replacement for other lib types.
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.6 Beta1- 2016-08-23
+==================================
+
+* Fixed Bug in RxCollectionView (Experimental)
+* Removed NuGet Target Windows 8.1/8.1 Mobile.
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.5 Beta2- 2016-07-23
+==================================
+
+* Introduced WeakPropertyChangedEventManager (Experimental)
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.4 Beta2- 2016-07-22
+==================================
+
+* Internal Testversion.
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.3 Beta2- 2016-04-26
+==================================
+
+* Updated .NET-Version to FW Target 4.5.2.
+* Implemented Reset-Method for BindableAsyncLazy.
+* BUGFIX: Setting Default-Property did not properly reset the IsLoaded state.
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.2 Beta2- 2016-02-07
+ ==================================
+
+* BUGFIX: Fixed Issues with CopyPropertiesFrom/To on UWP/DXCore with Readonly/Writeonly Properties.
+* BUGFIX: CopyPropertiesFrom on MvvmViewModelBase did not take ModelPropertyIgnoreAttribute into account.
+* Added XML-Docu-File in NuGet Package.
+* Renamed CollectionView to RxCollectionView, introduced type o for output collection.
+* Updated Json.NET to V8.02
+* Changed Namespace for Timer Class to ActiveDevelop.Threading
+* Introduced IsDebugMode Property for MvvmViewModelBase to control debug outputs in output window.
+* Introduced IsLoaded, OnIsLoadedChanged in BindableAsyncLazy
+* Introduced DefaultValueChanged in BindableAsyncLazy
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.1 - 2015-10-10
+ ==================================
+ 
+* Corrected some attributes so the binding engine UI's would not show them.
+* Version is made for being used in MvvmForms 2.1.1 Beta.
+
+
+==================================
+ CHANGELOG    
+ NEW IN 2.1.0 - 2015-9-27
+ ==================================
+ 
+* Made BindableBase, MvvmViewModelBase abstract.
+* Corrected some attributes so the binding engine UI's would not show them.
+* Version is made for being used in MvvmForms 2.1.0 Beta.
+
+==================================
+ CHANGELOG    
+ NEW IN 2.0.31 - 2015-9-3
+ ==================================
+ 
+* Introduced MvvmViewModelBase (MvvmBase got deprecated).
+* Corrected First Fire Issue in Timer.
+* Minor bug fixing in FormulaEval-Class.
+
+==================================
+ CHANGELOG - PRIVATE TEST BUILD    
+ NEW IN 2.0.30 - 2015-9-3
+ ==================================
+
+==================================
+ CHANGELOG    
+ NEW IN 2.0.29 - 2015-11-8
+ ==================================
+ 
+* Refactored out the PlatformDependencyService. We will come up with an seperate 
+  system for that for Windows Forms/Windows 10.
+* Adjusted referenced Assemblies to be compatible with Windows 10.
+
+==================================
+ CHANGELOG   
+ NEW IN 2.0.28 - 2015-07-12
+ ==================================
+ 
+* Implemented multiple target versions to be compatible for NETCORE5
+
+==================================
+ CHANGELOG   - PRIVATE BUILD -
+ NEW IN 2.0.27 - 2015-07-10
+ ==================================
+
+* Private Test Build for Windows 10 RC Development.
+
+ ==================================
+ CHANGELOG   
+ NEW IN 2.0.26 - 2015-07-10
+ ==================================
+ 
+* Implemented Timer-Class, so Timer is available via portable class library
+* Introduced dependency for RX-Framework for some special classes.
+* Adjustments preparation for NetCore.
+
+ ==================================
+ CHANGELOG
+ NEW IN 2.0.25 - 2015-06-16
+ ==================================
+
+* Corrected reference to incorrect NuGet-Versions of JSon.Net (Downgraded project reference back to last stable 6.0.8).
+
+ ==================================
+ CHANGELOG
+ NEW IN 2.0.24 - 2015-06-15
+ ==================================
+ 
+ * Adjusted Namespaces for the Mvvm, the standard and the FormularParser classes.
+   (2.0.23 was a failed upload).
+
+ ==================================
+ CHANGELOG
+ NEW IN 2.0.20 - 2015-05-21
+ ==================================
+
+ * Implemented FormularParser Class, with which an abitrary Formular can be calculated. The Formular 
+   need only be present as string. The class is located in ActiveDevelop.MvvmLib.FormularParser.
+
+
+<==================================
+ CHANGELOG
+ NEW IN 2.0.19 - 2015-05-21
+ ==================================
+
+ * Corrected NuGet MvvmFormsBase Info.

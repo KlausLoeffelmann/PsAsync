@@ -1,0 +1,49 @@
+* Slide introductions.
+* Red Cards for former C, C++ and everyone who knows what the WM_ underscore means!
+* Show the PI calculating thing, and ask why copying to the 
+  Memory stick does not use any processor workload?
+* Show, why the WebAPI is not proper Working.
+* Write a WinForms Demo that hangs!
+
+
+--- Step 1 ---
+
+* Native Windows App, describing the concept of a Windows Program.
+* Pointing out the MessageLoop
+* What happens if the messageloop gets blocked?
+* Explain, how DoEvent works and how we can fix that.
+
+--- Step 2 ---
+* Start the Async App and do the demo again.
+* Let's explain the Opening of the Windows, and why that and everythings else works because of the DoEvent.
+* Let's do the Hook points.
+* Let's switch to await and async.
+* Explain the Callback "Task" (Thread), and why it is not a Parallalizing Task.
+* Take Questions and this point!
+* And with that, let's go to the next demo...
+
+--- Step 3 ---
+* Showing the UwpApp and explain, how it works in principle.
+* Demo the first WebAPI Call.
+* Show the problems with the second.
+* How to fix this problem:
+	--> Go back to the WinForms App, and demonstrate that there is no task to await,
+            and what consequences that has.
+
+--- Step 4: Therotical. Talk about I/O Bound, CPU Bound and why LIEBRARIES should not LIE! ---
+
+--- Step 5: Talk about Configure Wait.
+
+* Let's do it and see the consequences.
+* Explain, how to fix this!
+* Explain, why Cross Thread Calls would be dangerous.
+
+--- Step 6: If time, Awaiting Events.
+
+--- Step 7: If time: Awaiting in Properties.
+
+
+
+
+
+

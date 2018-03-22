@@ -1,0 +1,111 @@
+﻿<UserControl
+    x:Class="UwpClient.Views.AllCustomersView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpClient.Views"
+    xmlns:converters="using:UwpClient.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="1024"
+    d:DesignWidth="768">
+
+    <UserControl.Resources>
+        <converters:OrdersExistenceToVisibilityConverter x:Key="OrdersExistenceToVisibilityConverter"/>
+        <converters:RevenueRangeToColorConverter x:Key="RevenueRangeToColorConverter"/>
+        <converters:NullableDecimalToStringConverter x:Key="NullableDecimalToStringConverter"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="{Binding ViewTitel}" FontSize="36" Foreground="Black"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ListView ItemsSource="{Binding Customers}" Margin="20,20,10,40" 
+                  SelectedIndex="{Binding SelectedCustomerIndex,Mode=TwoWay}" Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding CustomerNo}" VerticalAlignment="Center"
+                                   Padding="0,5,20,0" FontSize="18" Foreground="Black" 
+                                   HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Column="1" Text="{Binding MainName}" VerticalAlignment="Center" 
+                                   Padding="0,5,0,0" FontSize="18" Foreground="Black"
+                                   HorizontalAlignment="Left"/>
+                        <TextBlock Grid.Column="2" Text="{Binding Zip}" VerticalAlignment="Center" 
+                                   Padding="0,5,0,0" FontSize="18" Foreground="Black"
+                                   HorizontalAlignment="Left"/>
+                        <TextBlock Grid.Column="3" Text="{Binding City}" VerticalAlignment="Center" 
+                                   Padding="0,5,0,0" FontSize="18" Foreground="Black"
+                                   HorizontalAlignment="Left"/>
+                        <TextBlock Grid.Column="3" Text="{Binding RevenueInCurrentYear, Converter={StaticResource NullableDecimalToStringConverter}}" VerticalAlignment="Center" 
+                                   Padding="0,5,0,0" FontSize="18" Foreground="{Binding RevenueInCurrentYear, Converter={StaticResource RevenueRangeToColorConverter}}"
+                                   HorizontalAlignment="Right"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Grid.Row="2" Margin="20,10,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="D E T A I L S:" FontSize="24" Foreground="Blue" Padding="0,0,0,30" />
+            <TextBlock Text="O R D E R S:" Grid.Column="1" 
+                       Visibility="{Binding SelectedCustomer.Orders, Converter={StaticResource OrdersExistenceToVisibilityConverter}, FallbackValue=Visibility.Collapsed}" 
+                       FontSize="24" Foreground="Blue" Padding="0,0,0,30" />
+            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                <TextBlock Text="{Binding SelectedCustomer.CustomerNo}" Padding="0,0,10,0" FontSize="24" Foreground="Black" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding SelectedCustomer.MainName}" Padding="0,0,10,0" FontSize="24" Foreground="Black" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding SelectedCustomer.AdditionalName}" FontSize="24" Foreground="Black" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2">
+                <TextBlock Text="{Binding SelectedCustomer.AddressLine1}" FontSize="18" Foreground="Black" VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding SelectedCustomer.Zip}" Padding="0,0,10,0" FontSize="18" Foreground="Black" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding SelectedCustomer.City}" FontSize="18" Foreground="Black" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+            <ListBox Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"
+                     ItemsSource="{Binding SelectedCustomer.Orders}"
+                     Visibility="{Binding SelectedCustomer.Orders, Converter={StaticResource OrdersExistenceToVisibilityConverter}, FallbackValue=Visibility.Collapsed}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding OrderNo}" VerticalAlignment="Center"
+                                   Padding="0,5,20,0" FontSize="14" Foreground="Black" 
+                                   HorizontalAlignment="Right"/>
+                            <TextBlock Grid.Column="1" Text="{Binding OrderDateString}" VerticalAlignment="Center"
+                                   Padding="0,5,20,0" FontSize="14" Foreground="Black" 
+                                   HorizontalAlignment="Right"/>
+                            <TextBlock Grid.Column="2" Text="{Binding Amount}" VerticalAlignment="Center"
+                                   Padding="0,5,20,0" FontSize="14" Foreground="Black" 
+                                   HorizontalAlignment="Right"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+</UserControl>
