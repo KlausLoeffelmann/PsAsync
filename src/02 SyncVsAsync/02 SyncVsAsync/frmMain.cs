@@ -50,8 +50,9 @@ namespace SyncVsAsync
             if (!string.IsNullOrWhiteSpace(Properties.Settings.Default.LastPathToThumbDriveFolder))
             {
                 TargetFolder = Properties.Settings.Default.LastPathToThumbDriveFolder;
-                ThrottleTrackBar.Value = Properties.Settings.Default.ThrottleValue;
             }
+
+            ThrottleTrackBar.Value = Properties.Settings.Default.ThrottleValue;
 
             //Setting the titel label (don't we love string interpolation? :-)
             lblTitel.Text = $"Calculating {DIGITS_OF_PI} digits of Pi ({Math.PI}...)";
